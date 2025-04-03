@@ -1,30 +1,24 @@
-# Changes
+### Description
 
-Please provide a brief description of the changes here.
+_A few sentences describing the overall effects and goals of the pull request's commits.
+What is the current behavior, and what is the updated/expected behavior with this PR?_
 
-## Merge Requirements
+### Other changes
 
-For new features contributions, please make sure you have completed the following
-essential items:
+_Describe any minor or "drive-by" changes here._
 
-* [ ] `CHANGELOG.md` updated to document new feature additions
-* [ ] Appropriate documentation updates in the [docs][]
-* [ ] Appropriate Helm chart updates in the [helm-charts][]
+### Tested
 
-<!--
-A Pull Request that modifies instrumentation code will likely require an
-update in docs. Please make sure to update the opentelemetry.io repo with any
-docs changes.
+_An explanation of how the changes were tested or an explanation as to why they don't need to be._
 
-A Pull Request that modifies docker-compose.yaml, otelcol-config.yaml, or
-Grafana dashboards will likely require an update to the Demo Helm chart.
-Other changes affecting how a service is deployed will also likely require an
-update to the Demo Helm chart.
--->
+### Related issues
 
-Maintainers will not merge until the above have been completed. If you're unsure
-which docs need to be changed ping the
-[@open-telemetry/demo-approvers](https://github.com/orgs/open-telemetry/teams/demo-approvers).
+- closes [Linear ID]
 
-[docs]: https://opentelemetry.io/docs/demo/
-[helm-charts]: https://github.com/open-telemetry/opentelemetry-helm-charts
+### Backwards compatibility
+
+_Brief explanation of why these changes are/are not backwards compatible._
+
+### Documentation
+
+_The set of community facing docs that have been added/modified because of this change_
