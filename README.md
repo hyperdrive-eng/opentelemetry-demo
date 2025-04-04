@@ -1,15 +1,11 @@
 <!-- markdownlint-disable-next-line -->
-# <img src="https://opentelemetry.io/img/logos/opentelemetry-logo-nav.png" alt="OTel logo" width="45"> OpenTelemetry Demo
+# <img src="https://avatars.githubusercontent.com/u/203325279?s=200&v=4" alt="Hyperdrive logo" width="45"> Microservices Debugging Playground
 
-## Welcome to the OpenTelemetry Astronomy Shop Demo
+## Welcome to the Debugging Playground
 
-This repository contains the mock OpenTelemetry Astronomy Shop, a microservice-based
-distributed system intended to illustrate the implementation of OpenTelemetry in
-a near real-world environment.
+This repository contains a mock online shop, made up of microservices. 
 
-Our goals is to provide a realistic example of a distributed system that can be used to
-demonstrate how to debug a system in production.
-
+Our goals is to provide a realistic example of a distributed system that can be used to test and demo our debugging tool.
 
 ## Quick start
 
