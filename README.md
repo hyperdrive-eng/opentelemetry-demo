@@ -1,5 +1,5 @@
 <!-- markdownlint-disable-next-line -->
-# <img src="https://avatars.githubusercontent.com/u/203325279?s=200&v=4" alt="Hyperdrive logo" width="45"> Microservices Debugging Playground
+# <img src="https://avatars.githubusercontent.com/u/203325279?s=200&v=4" alt="Hyperdrive logo" width="45"> Debugging Playground
 
 ## Welcome to the Debugging Playground
 
@@ -21,16 +21,16 @@ Start the demo:
 docker compose up --force-recreate --remove-orphans --detach
 ```
 
-Source: https://opentelemetry.io/docs/demo/docker-deployment/
+Source: [Docker deployment][docker-deployment]
 
-## Links
+Open the demo: [`http://localhost:8080/`](http://localhost:8080/).
 
-Once the images are built and containers are started you can access:
+## Quick links
 
 | Title | URL |
 |-------|-----|
-| Web store | http://localhost:8080/ |
-| Grafana | http://localhost:8080/grafana/ |
+| Mock online shop | http://localhost:8080/ |
+| Grafana UI | http://localhost:8080/grafana/ |
 | Load Generator UI | http://localhost:8080/loadgen/ |
 | Jaeger UI | http://localhost:8080/jaeger/ui/ |
 | Tracetest UI | http://localhost:11633/ |
@@ -38,9 +38,36 @@ Once the images are built and containers are started you can access:
 
 Source: [Docker deployment][docker-deployment]
 
-## Documentation
+## FAQ
 
-The OpenTelemetry Demo is composed of microservices written in different
+### Where can I find logs?
+
+When the demo is running, you can get logs from Docker: 
+
+```sh
+# Get all logs
+docker compose logs
+
+# Get service logs
+docker compose logs {SERVICE NAME}
+```
+
+When the demo is not running, you can find example logs in [`logs/`](./logs). For example [`all.log`](./logs/all.log), [`checkout.log`](./logs/checkout.log), [`accounting.log`](./logs/accounting.log), [`product-catalog.log`](./logs/product-catalog.log), [`ad.log`](./logs/ad.log), [`cart.log`](./logs/cart.log), [`payment.log`](./logs/payment.log), [`recommendation.log`](./logs/recommendation.log).
+
+To generate more example logs, run: 
+
+```sh
+# Start services and capture logs (press Ctrl+C to stop capturing logs)
+bash -x logs.sh
+```
+
+### Where can I find traces?
+
+When the demo is running, you can inspect traces in the Jaeger UI: [`http://localhost:8080/jaeger/ui/`](http://localhost:8080/jaeger/ui/)
+
+### What are all the services?
+
+The demo is composed of microservices written in different
 programming languages that talk to each other over gRPC and HTTP; and a load
 generator which uses [Locust](https://locust.io/) to fake user traffic.
 
