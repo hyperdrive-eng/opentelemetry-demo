@@ -1,0 +1,6 @@
+quote  | Listening on: 0.0.0.0:8090
+quote  | [2025-04-11 12:36:39+00:00] "POST /getquote HTTP/1.1" 200 5 
+quote  | [2025-04-11 12:37:05+00:00] "POST /getquote HTTP/1.1" 200 3 
+quote  | [2025-04-11 12:37:22+00:00] "POST /getquote HTTP/1.1" 200 5 
+quote  | [2025-04-11 12:37:55+00:00] "POST /getquote HTTP/1.1" 200 3 
+quote  | [2025-04-11 12:38:45+00:00] "POST /getquote HTTP/1.1" 200 3 

@@ -1,0 +1,118 @@
+prometheus  | time=2025-04-11T12:35:44.023Z level=INFO source=main.go:225 msg="Experimental in-memory exemplar storage enabled"
+prometheus  | time=2025-04-11T12:35:44.025Z level=INFO source=main.go:687 msg="Starting Prometheus Server" mode=server version="(version=3.2.0, branch=HEAD, revision=bf7ec404b2a4933a81b0ffe2baba32b92d471655)"
+prometheus  | time=2025-04-11T12:35:44.025Z level=INFO source=main.go:692 msg="operational information" build_context="(go=go1.23.6, platform=linux/arm64, user=root@793dd0d4a527, date=20250217-18:46:05, tags=netgo,builtinassets,stringlabels)" host_details="(Linux 6.12.5-linuxkit #1 SMP Tue Jan 21 10:23:32 UTC 2025 aarch64 78b772d7b6c2 (none))" fd_limits="(soft=1048576, hard=1048576)" vm_limits="(soft=unlimited, hard=unlimited)"
+prometheus  | time=2025-04-11T12:35:44.031Z level=INFO source=main.go:768 msg="Leaving GOMAXPROCS=11: CPU quota undefined" component=automaxprocs
+prometheus  | time=2025-04-11T12:35:44.035Z level=INFO source=web.go:654 msg="Start listening for connections" component=web address=0.0.0.0:9090
+prometheus  | time=2025-04-11T12:35:44.036Z level=INFO source=main.go:1228 msg="Starting TSDB ..."
+prometheus  | time=2025-04-11T12:35:44.039Z level=INFO source=tls_config.go:347 msg="Listening on" component=web address=[::]:9090
+prometheus  | time=2025-04-11T12:35:44.039Z level=INFO source=tls_config.go:350 msg="TLS is disabled." component=web http2=false address=[::]:9090
+prometheus  | time=2025-04-11T12:35:44.051Z level=INFO source=head.go:628 msg="Replaying on-disk memory mappable chunks if any" component=tsdb
+prometheus  | time=2025-04-11T12:35:44.054Z level=INFO source=head.go:715 msg="On-disk memory mappable chunks replay completed" component=tsdb duration=29.708µs
+prometheus  | time=2025-04-11T12:35:44.054Z level=INFO source=head.go:723 msg="Replaying WAL, this may take a while" component=tsdb
+prometheus  | time=2025-04-11T12:35:44.056Z level=INFO source=head.go:795 msg="WAL segment loaded" component=tsdb segment=0 maxSegment=0
+prometheus  | time=2025-04-11T12:35:44.056Z level=INFO source=head.go:823 msg="WBL segment loaded" component=tsdb segment=0 maxSegment=0
+prometheus  | time=2025-04-11T12:35:44.056Z level=INFO source=head.go:832 msg="WAL replay completed" component=tsdb checkpoint_replay_duration=51.417µs wal_replay_duration=2.205208ms wbl_replay_duration=63.916µs chunk_snapshot_load_duration=0s mmap_chunk_replay_duration=29.708µs total_replay_duration=2.367958ms
+prometheus  | time=2025-04-11T12:35:44.057Z level=INFO source=main.go:1249 msg="filesystem information" fs_type=EXT4_SUPER_MAGIC
+prometheus  | time=2025-04-11T12:35:44.057Z level=INFO source=main.go:1252 msg="TSDB started"
+prometheus  | time=2025-04-11T12:35:44.057Z level=INFO source=main.go:1437 msg="Loading configuration file" filename=/etc/prometheus/prometheus-config.yaml
+prometheus  | time=2025-04-11T12:35:44.060Z level=INFO source=main.go:1476 msg="updated GOGC" old=100 new=75
+prometheus  | time=2025-04-11T12:35:44.061Z level=INFO source=main.go:1486 msg="Completed loading of configuration file" db_storage=958ns remote_storage=833ns web_handler=459ns query_engine=750ns scrape=1.501084ms scrape_sd=1.333µs notify=667ns notify_sd=417ns rules=12.792µs tracing=14.083µs filename=/etc/prometheus/prometheus-config.yaml totalDuration=3.666208ms
+prometheus  | time=2025-04-11T12:35:44.061Z level=INFO source=main.go:1213 msg="Server is ready to receive web requests."
+prometheus  | time=2025-04-11T12:35:44.061Z level=INFO source=manager.go:175 msg="Starting rule manager..." component="rule manager"
+prometheus  | time=2025-04-11T12:36:08.084Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=26
+prometheus  | time=2025-04-11T12:36:10.102Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=26
+prometheus  | time=2025-04-11T12:36:12.106Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=26
+prometheus  | time=2025-04-11T12:36:14.117Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=26
+prometheus  | time=2025-04-11T12:36:15.524Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=20
+prometheus  | time=2025-04-11T12:36:16.127Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=26
+prometheus  | time=2025-04-11T12:36:18.141Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=26
+prometheus  | time=2025-04-11T12:36:20.152Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=26
+prometheus  | time=2025-04-11T12:36:22.154Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=26
+prometheus  | time=2025-04-11T12:36:24.190Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=4
+prometheus  | time=2025-04-11T12:36:25.601Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=20
+prometheus  | time=2025-04-11T12:36:26.203Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=4
+prometheus  | time=2025-04-11T12:36:28.212Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=4
+prometheus  | time=2025-04-11T12:36:30.223Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=26
+prometheus  | time=2025-04-11T12:36:32.229Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=26
+prometheus  | time=2025-04-11T12:36:34.239Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=26
+prometheus  | time=2025-04-11T12:36:35.449Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=24
+prometheus  | time=2025-04-11T12:36:36.250Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=4
+prometheus  | time=2025-04-11T12:36:38.062Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=4
+prometheus  | time=2025-04-11T12:36:40.077Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=4
+prometheus  | time=2025-04-11T12:36:42.092Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=4
+prometheus  | time=2025-04-11T12:36:44.099Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=34
+prometheus  | time=2025-04-11T12:36:45.520Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=6
+prometheus  | time=2025-04-11T12:36:46.114Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=34
+prometheus  | time=2025-04-11T12:36:48.126Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=12
+prometheus  | time=2025-04-11T12:36:50.132Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=12
+prometheus  | time=2025-04-11T12:36:52.144Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=12
+prometheus  | time=2025-04-11T12:36:54.163Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=34
+prometheus  | time=2025-04-11T12:36:55.580Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=37
+prometheus  | time=2025-04-11T12:36:56.170Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=12
+prometheus  | time=2025-04-11T12:36:58.182Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=12
+prometheus  | time=2025-04-11T12:37:00.196Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=12
+prometheus  | time=2025-04-11T12:37:02.208Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=34
+prometheus  | time=2025-04-11T12:37:04.221Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=34
+prometheus  | time=2025-04-11T12:37:05.428Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=30
+prometheus  | time=2025-04-11T12:37:06.229Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=12
+prometheus  | time=2025-04-11T12:37:08.237Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:37:10.249Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:37:12.060Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:37:14.078Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=36
+prometheus  | time=2025-04-11T12:37:15.491Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=51
+prometheus  | time=2025-04-11T12:37:16.088Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:37:18.100Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:37:20.104Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:37:22.112Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:37:24.122Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=12
+prometheus  | time=2025-04-11T12:37:25.533Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=49
+prometheus  | time=2025-04-11T12:37:26.132Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:37:28.149Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=36
+prometheus  | time=2025-04-11T12:37:30.161Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=36
+prometheus  | time=2025-04-11T12:37:32.176Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=36
+prometheus  | time=2025-04-11T12:37:34.183Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:37:35.600Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=53
+prometheus  | time=2025-04-11T12:37:36.191Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:37:38.202Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:37:40.216Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=36
+prometheus  | time=2025-04-11T12:37:42.234Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:37:44.243Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:37:45.454Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=70
+prometheus  | time=2025-04-11T12:37:46.251Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=36
+prometheus  | time=2025-04-11T12:37:48.061Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:37:50.069Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:37:52.079Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:37:54.091Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=36
+prometheus  | time=2025-04-11T12:37:55.524Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=30
+prometheus  | time=2025-04-11T12:37:56.105Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=12
+prometheus  | time=2025-04-11T12:37:58.113Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:38:00.120Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:38:02.138Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:38:04.149Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:38:05.563Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=6
+prometheus  | time=2025-04-11T12:38:06.156Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=58
+prometheus  | time=2025-04-11T12:38:08.174Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:38:10.176Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:38:12.188Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=36
+prometheus  | time=2025-04-11T12:38:14.196Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:38:15.409Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=65
+prometheus  | time=2025-04-11T12:38:16.206Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:38:18.217Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=36
+prometheus  | time=2025-04-11T12:38:20.229Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:38:22.240Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:38:24.245Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:38:25.457Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=65
+prometheus  | time=2025-04-11T12:38:26.058Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=36
+prometheus  | time=2025-04-11T12:38:28.076Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:38:30.087Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:38:32.167Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:38:34.175Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:38:35.590Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=59
+prometheus  | time=2025-04-11T12:38:36.185Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=58
+prometheus  | time=2025-04-11T12:38:38.200Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:38:40.203Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=36
+prometheus  | time=2025-04-11T12:38:42.211Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=36
+prometheus  | time=2025-04-11T12:38:44.221Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14
+prometheus  | time=2025-04-11T12:38:45.441Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=55
+prometheus  | time=2025-04-11T12:38:46.228Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=34
+prometheus  | time=2025-04-11T12:38:48.241Z level=WARN source=write_handler.go:289 msg="Error on ingesting out-of-order exemplars" component=web num_dropped=14

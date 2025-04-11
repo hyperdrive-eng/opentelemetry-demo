@@ -1,0 +1,30 @@
+accounting  | Accounting service started
+accounting  | [CORECLR_ENABLE_PROFILING, 1]
+accounting  | [CORECLR_PROFILER, {918728DD-259F-4A6A-AC2B-B85E1B658318}]
+accounting  | [CORECLR_PROFILER_PATH, /app/OpenTelemetry.AutoInstrumentation.Native.so]
+accounting  | [DOTNET_RUNNING_IN_CONTAINER, true]
+accounting  | [DOTNET_STARTUP_HOOKS, /app/OpenTelemetry.AutoInstrumentation.StartupHook.dll]
+accounting  | [DOTNET_VERSION, 8.0.14]
+accounting  | [KAFKA_ADDR, kafka:9092]
+accounting  | [OTEL_DOTNET_AUTO_HOME, /app]
+accounting  | [OTEL_DOTNET_AUTO_RULE_ENGINE_ENABLED, false]
+accounting  | [OTEL_EXPORTER_OTLP_ENDPOINT, http://otel-collector:4318]
+accounting  | [OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE, cumulative]
+accounting  | [OTEL_RESOURCE_ATTRIBUTES, docker.cli.cobra.command_path=docker%20compose]
+accounting  | [OTEL_SERVICE_NAME, accounting]
+accounting  | info: Accounting.Consumer[0]
+accounting  |       Connecting to Kafka: kafka:9092
+accounting  | fail: Accounting.Consumer[0]
+accounting  |       Consume error: Subscribed topic not available: orders: Broker: Unknown topic or partition
+accounting  |       Confluent.Kafka.ConsumeException: Subscribed topic not available: orders: Broker: Unknown topic or partition
+accounting  |          at Confluent.Kafka.Consumer`2.Consume(Int32 millisecondsTimeout)
+accounting  |          at Confluent.Kafka.Consumer`2.Consume(CancellationToken cancellationToken)
+accounting  |          at Accounting.Consumer.StartListening() in /src/Accounting/Consumer.cs:line 41
+accounting  | info: Accounting.Consumer[174880625]
+accounting  |       Order details: { "orderId": "9d8312b9-16d1-11f0-ad92-0242ac120015", "shippingTrackingId": "448ba545-9a1d-464d-83bc-d0c9e1ece0f9", "shippingCost": { "currencyCode": "USD", "units": "311", "nanos": 500000000 }, "shippingAddress": { "streetAddress": "100 Winchester Circle", "city": "Los Gatos", "state": "CA", "country": "United States", "zipCode": "95032" }, "items": [ { "item": { "productId": "OLJCESPC7Z", "quantity": 5 }, "cost": { "currencyCode": "USD", "units": "101", "nanos": 959999999 } } ] }.
+accounting  | info: Accounting.Consumer[174880625]
+accounting  |       Order details: { "orderId": "ad2d424a-16d1-11f0-ad92-0242ac120015", "shippingTrackingId": "7ff20eb0-6d9f-4640-8595-f7a3f1fbf2ba", "shippingCost": { "currencyCode": "CAD", "units": "1146", "nanos": 810791685 }, "shippingAddress": { "streetAddress": "150 Elgin St", "city": "Ottawa", "state": "ON", "country": "Canada", "zipCode": "K2P1L4" }, "items": [ { "item": { "productId": "HQTGWGPNH4", "quantity": 10 }, "cost": { "currencyCode": "CAD", "units": "1", "nanos": 324787262 } } ] }.
+accounting  | info: Accounting.Consumer[174880625]
+accounting  |       Order details: { "orderId": "b6f2fea9-16d1-11f0-ad92-0242ac120015", "shippingTrackingId": "ca24bd3f-c224-4999-98a7-47ec5526972c", "shippingCost": { "currencyCode": "USD", "units": "683", "nanos": 100000000 }, "shippingAddress": { "streetAddress": "1355 Market St", "city": "San Francisco", "state": "CA", "country": "United States", "zipCode": "94103" }, "items": [ { "item": { "productId": "66VCHSJNUP", "quantity": 5 }, "cost": { "currencyCode": "USD", "units": "349", "nanos": 949999999 } }, { "item": { "productId": "2ZYFJ3GM2N", "quantity": 2 }, "cost": { "currencyCode": "USD", "units": "209", "nanos": 949999999 } }, { "item": { "productId": "1YMWWN1N4O", "quantity": 4 }, "cost": { "currencyCode": "USD", "units": "129", "nanos": 949999999 } } ] }.
+accounting  | info: Accounting.Consumer[174880625]
+accounting  |       Order details: { "orderId": "cb0fd48c-16d1-11f0-ad92-0242ac120015", "shippingTrackingId": "f155c99d-42d0-4717-bd23-9e620668ed1e", "shippingCost": { "currencyCode": "USD", "units": "587" }, "shippingAddress": { "streetAddress": "1 Hacker Way", "city": "Menlo Park", "state": "CA", "country": "United States", "zipCode": "94025" }, "items": [ { "item": { "productId": "6E92ZMYYFZ", "quantity": 10 }, "cost": { "currencyCode": "USD", "units": "69", "nanos": 950000000 } } ] }.

@@ -1,0 +1,17 @@
+shipping  | 12:35:54 [INFO] OTel pipeline created
+shipping  | 12:35:54 [INFO] listening on 0.0.0.0:50050
+shipping  | 12:36:39 [INFO] Received quote: "311.5"
+shipping  | 12:36:39 [INFO] Sending Quote: 311.50
+shipping  | 12:36:39 [INFO] Tracking ID Created: 448ba545-9a1d-464d-83bc-d0c9e1ece0f9
+shipping  | 12:37:05 [INFO] Received quote: "857"
+shipping  | 12:37:05 [INFO] Sending Quote: 857.0
+shipping  | 12:37:05 [INFO] Tracking ID Created: 7ff20eb0-6d9f-4640-8595-f7a3f1fbf2ba
+shipping  | 12:37:22 [INFO] Received quote: "683.1"
+shipping  | 12:37:22 [INFO] Sending Quote: 683.10
+shipping  | 12:37:22 [INFO] Tracking ID Created: ca24bd3f-c224-4999-98a7-47ec5526972c
+shipping  | 12:37:55 [INFO] Received quote: "587"
+shipping  | 12:37:55 [INFO] Sending Quote: 587.0
+shipping  | 12:37:55 [INFO] Tracking ID Created: f155c99d-42d0-4717-bd23-9e620668ed1e
+shipping  | 12:38:45 [INFO] Received quote: "564"
+shipping  | 12:38:45 [INFO] Sending Quote: 564.0
+shipping  | 12:38:45 [INFO] Tracking ID Created: 7b73043a-c2ee-4471-ac0e-9b25af58afb0

@@ -1,0 +1,10 @@
+frontend  | 
+frontend  | > frontend@0.1.0 start
+frontend  | > node --require ./Instrumentation.js server.js
+frontend  | 
+frontend  |    ▲ Next.js 15.2.1
+frontend  |    - Local:        http://0a898b3a6cce:8080
+frontend  |    - Network:      http://0a898b3a6cce:8080
+frontend  | 
+frontend  |  ✓ Starting...
+frontend  |  ✓ Ready in 461ms
