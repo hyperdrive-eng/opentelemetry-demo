@@ -1,0 +1,1 @@
+currency  | [Error] File: /opentelemetry-cpp/exporters/otlp/src/otlp_grpc_log_record_exporter.cc:173 [OTLP LOG GRPC Exporter] Export() failed: failed to connect to all addresses; last error: UNKNOWN: ipv4:172.18.0.9:4317: Failed to connect to remote host: Connection refused

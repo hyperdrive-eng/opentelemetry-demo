@@ -1,0 +1,960 @@
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       Successfully connected to Redis
+cart  | warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
+cart  |       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://*:7070'.
+cart  | info: Microsoft.Hosting.Lifetime[14]
+cart  |       Now listening on: http://[::]:7070
+cart  | info: Microsoft.Hosting.Lifetime[0]
+cart  |       Application started. Press Ctrl+C to shut down.
+cart  | info: Microsoft.Hosting.Lifetime[0]
+cart  |       Hosting environment: Production
+cart  | info: Microsoft.Hosting.Lifetime[0]
+cart  |       Content root path: /usr/src/app
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=851b2d3a-a4ca-405c-b79f-c5002d68f1b6
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=851b2d3a-a4ca-405c-b79f-c5002d68f1b6
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=05cb971c-1894-4730-a054-30fd11ad869d
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=05cb971c-1894-4730-a054-30fd11ad869d
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=278b5421-8a97-4ff4-8208-c14317ef113e
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=278b5421-8a97-4ff4-8208-c14317ef113e
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=302148a6-eb56-4707-bb4f-d91edc82a930
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=302148a6-eb56-4707-bb4f-d91edc82a930
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=8b047007-6787-466f-8602-0915ee3d2229
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=8b047007-6787-466f-8602-0915ee3d2229
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=8b047007-6787-466f-8602-0915ee3d2229
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=bee4177e-eddb-4e62-ab5b-074430effcd0
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=bee4177e-eddb-4e62-ab5b-074430effcd0
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       AddItemAsync called with userId=89b91a96-16d1-11f0-9eeb-0242ac120019, productId=OLJCESPC7Z, quantity=2
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=89b91a96-16d1-11f0-9eeb-0242ac120019
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=1a122c08-f517-4d6d-9bf3-75048952b7a7
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=1a122c08-f517-4d6d-9bf3-75048952b7a7
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=1a122c08-f517-4d6d-9bf3-75048952b7a7
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=805b558b-bb47-4ca6-af56-4a07bd5eec30
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=805b558b-bb47-4ca6-af56-4a07bd5eec30
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=805b558b-bb47-4ca6-af56-4a07bd5eec30
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=5dee1abe-813a-4822-93ed-9c61b685bbab
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=5dee1abe-813a-4822-93ed-9c61b685bbab
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=5dee1abe-813a-4822-93ed-9c61b685bbab
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       AddItemAsync called with userId=8c33791a-16d1-11f0-9eeb-0242ac120019, productId=9SIQT8TOJO, quantity=3
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=8c33791a-16d1-11f0-9eeb-0242ac120019
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=fe753ac9-44c0-4a62-bcb2-dd3717f739c9
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=fe753ac9-44c0-4a62-bcb2-dd3717f739c9
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=fe753ac9-44c0-4a62-bcb2-dd3717f739c9
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=883d4bf8-9483-4e9c-a436-2254607ea283
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=883d4bf8-9483-4e9c-a436-2254607ea283
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=883d4bf8-9483-4e9c-a436-2254607ea283
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=7beaae46-2986-4391-b47e-f68770486649
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=7beaae46-2986-4391-b47e-f68770486649
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=7beaae46-2986-4391-b47e-f68770486649
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=55fb2087-61bd-4f27-a7b7-b71b657e9ea0
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=55fb2087-61bd-4f27-a7b7-b71b657e9ea0
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=55fb2087-61bd-4f27-a7b7-b71b657e9ea0
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=30182ca5-b550-4c09-b26a-3b73d9e56046
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=30182ca5-b550-4c09-b26a-3b73d9e56046
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=611716c1-f02a-4333-b2d6-6b2a6f70655c
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=611716c1-f02a-4333-b2d6-6b2a6f70655c
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=611716c1-f02a-4333-b2d6-6b2a6f70655c
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=83e6f428-76da-4774-9578-7778ef1fc16f
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=83e6f428-76da-4774-9578-7778ef1fc16f
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=db2d9d36-ab06-40c4-b16c-06b0077642a8
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=db2d9d36-ab06-40c4-b16c-06b0077642a8
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=db2d9d36-ab06-40c4-b16c-06b0077642a8
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=8e89436b-dca2-477d-ad61-5a33d2ac5072
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=8e89436b-dca2-477d-ad61-5a33d2ac5072
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=8e89436b-dca2-477d-ad61-5a33d2ac5072
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=557c4356-0c73-4326-957f-0486b14df865
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=557c4356-0c73-4326-957f-0486b14df865
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=557c4356-0c73-4326-957f-0486b14df865
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=65d548c3-6bf5-4999-901d-3cd871a7ac28
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=65d548c3-6bf5-4999-901d-3cd871a7ac28
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=b06f845a-99ff-4ccd-ae5c-a78753596084
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=b06f845a-99ff-4ccd-ae5c-a78753596084
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=551d724e-699e-46b2-9dde-de82a3a2af40
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=551d724e-699e-46b2-9dde-de82a3a2af40
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=551d724e-699e-46b2-9dde-de82a3a2af40
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=f92fd263-b576-4189-9689-f90cf16d7531
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=f92fd263-b576-4189-9689-f90cf16d7531
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=632c565f-8fdd-4eaa-9404-3960cf9128ba
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=632c565f-8fdd-4eaa-9404-3960cf9128ba
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=632c565f-8fdd-4eaa-9404-3960cf9128ba
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=d1d18fce-cdc2-4381-881a-ae41b879d485
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=d1d18fce-cdc2-4381-881a-ae41b879d485
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=88d06471-50ca-4bed-b0d1-3b1cb713cada
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=88d06471-50ca-4bed-b0d1-3b1cb713cada
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=88d06471-50ca-4bed-b0d1-3b1cb713cada
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=20228405-0147-4481-81cf-d59378ea2eeb
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=20228405-0147-4481-81cf-d59378ea2eeb
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=d0f82601-e56d-495c-b470-2ddd52707714
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=d0f82601-e56d-495c-b470-2ddd52707714
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=d0f82601-e56d-495c-b470-2ddd52707714
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=e3dd7a7a-9a2a-447f-8464-12f135351850
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=e3dd7a7a-9a2a-447f-8464-12f135351850
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=e3dd7a7a-9a2a-447f-8464-12f135351850
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=60ea036e-fdb4-4e51-ad7d-5092ffe931d9
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=60ea036e-fdb4-4e51-ad7d-5092ffe931d9
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=60ea036e-fdb4-4e51-ad7d-5092ffe931d9
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=be2f0b25-3b92-4886-94b9-eeae63b88e01
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=be2f0b25-3b92-4886-94b9-eeae63b88e01
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=be2f0b25-3b92-4886-94b9-eeae63b88e01
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=ecb9622e-8dba-494d-b52c-adb33d24060d
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=ecb9622e-8dba-494d-b52c-adb33d24060d
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=ecb9622e-8dba-494d-b52c-adb33d24060d
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=db49a158-0c4f-4319-8264-d1794c5077df
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=db49a158-0c4f-4319-8264-d1794c5077df
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=33e10834-2803-44f7-8423-bedae98575d3
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=33e10834-2803-44f7-8423-bedae98575d3
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=5ac1aacf-1b7b-4a7c-a5dd-5e668a51e2e4
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=5ac1aacf-1b7b-4a7c-a5dd-5e668a51e2e4
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=1a37480c-2b14-4f0f-9689-049cc06742aa
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=1a37480c-2b14-4f0f-9689-049cc06742aa
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=529a56d2-0e3b-4e3c-a47f-56fabc1921b6
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=529a56d2-0e3b-4e3c-a47f-56fabc1921b6
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=759d1cd1-bc92-4581-9068-a4898aa1514a
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=759d1cd1-bc92-4581-9068-a4898aa1514a
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=759d1cd1-bc92-4581-9068-a4898aa1514a
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=fa7d9b91-92a4-40c8-ad54-db831ebd2674
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=fa7d9b91-92a4-40c8-ad54-db831ebd2674
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=fa7d9b91-92a4-40c8-ad54-db831ebd2674
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=a00b6f51-05b5-40e8-917f-262d7f1d5213
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=a00b6f51-05b5-40e8-917f-262d7f1d5213
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=a00b6f51-05b5-40e8-917f-262d7f1d5213
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       AddItemAsync called with userId=9d7e2a1c-16d1-11f0-9eeb-0242ac120019, productId=OLJCESPC7Z, quantity=5
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=9d7e2a1c-16d1-11f0-9eeb-0242ac120019
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=9d7e2a1c-16d1-11f0-9eeb-0242ac120019
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       EmptyCartAsync called with userId=9d7e2a1c-16d1-11f0-9eeb-0242ac120019
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=c5ef06f2-f18f-422e-a619-47e2094caabb
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=c5ef06f2-f18f-422e-a619-47e2094caabb
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=c41570b9-108f-4fbe-b6c3-e510d41f6438
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=c41570b9-108f-4fbe-b6c3-e510d41f6438
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=c41570b9-108f-4fbe-b6c3-e510d41f6438
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=02514332-108a-4e95-a53e-c186595a7e76
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=02514332-108a-4e95-a53e-c186595a7e76
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=02514332-108a-4e95-a53e-c186595a7e76
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=007ef65e-4eca-4db6-90fc-7e5befa894e0
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=007ef65e-4eca-4db6-90fc-7e5befa894e0
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=6141225d-3683-4b20-971d-1486a92d1a84
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=6141225d-3683-4b20-971d-1486a92d1a84
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=6141225d-3683-4b20-971d-1486a92d1a84
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=bf877b46-adf2-4ea3-87d2-cfd7b708b47a
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=bf877b46-adf2-4ea3-87d2-cfd7b708b47a
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=8a0d89a7-a882-41a7-9f43-00037a7057f6
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=8a0d89a7-a882-41a7-9f43-00037a7057f6
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=86a6a736-c7db-4a64-ab14-d2678fe880aa
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=86a6a736-c7db-4a64-ab14-d2678fe880aa
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=49b1218f-c620-45d7-be61-6351610ca67d
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=49b1218f-c620-45d7-be61-6351610ca67d
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=bc648955-f30a-4eca-95fc-17e9d15530d9
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=bc648955-f30a-4eca-95fc-17e9d15530d9
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=15843099-21ac-4b6a-88df-57caabf24ec6
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=15843099-21ac-4b6a-88df-57caabf24ec6
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=966468b0-4e12-4650-a099-dcac103ac632
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=966468b0-4e12-4650-a099-dcac103ac632
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=966468b0-4e12-4650-a099-dcac103ac632
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=c06d4478-2bba-49bf-8c60-9766034925fc
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=c06d4478-2bba-49bf-8c60-9766034925fc
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=8f831420-ceaa-4213-ae2b-2ea8386e7a57
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=8f831420-ceaa-4213-ae2b-2ea8386e7a57
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=4c10ada0-a54c-43a5-aba1-43cb275647f3
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=4c10ada0-a54c-43a5-aba1-43cb275647f3
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=4c10ada0-a54c-43a5-aba1-43cb275647f3
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=84c28cd8-68cd-44b3-81aa-2fd4ba01d1d8
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=84c28cd8-68cd-44b3-81aa-2fd4ba01d1d8
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=84c28cd8-68cd-44b3-81aa-2fd4ba01d1d8
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=55ec1aea-c0d5-44c8-bed7-d7c1efab95fc
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=55ec1aea-c0d5-44c8-bed7-d7c1efab95fc
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=8af7d2f6-251d-411a-bb0b-a04d4e3f7a3b
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=8af7d2f6-251d-411a-bb0b-a04d4e3f7a3b
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=8af7d2f6-251d-411a-bb0b-a04d4e3f7a3b
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=ea9fec9d-e676-4286-928c-6a46e4be579a
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=ea9fec9d-e676-4286-928c-6a46e4be579a
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=ea9fec9d-e676-4286-928c-6a46e4be579a
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=a0e449e0-78ea-46ba-adb9-1937b8d0d856
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=a0e449e0-78ea-46ba-adb9-1937b8d0d856
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=73bba3c0-b9db-4267-9c89-ff25eab605cd
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=73bba3c0-b9db-4267-9c89-ff25eab605cd
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=6da608a5-ae78-4c9d-969f-add33d34d3c4
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=6da608a5-ae78-4c9d-969f-add33d34d3c4
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=c42b11b7-c1ef-4731-b4cb-db03f4fb6484
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=c42b11b7-c1ef-4731-b4cb-db03f4fb6484
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=1927e513-38e4-453e-89be-daa244e04686
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=1927e513-38e4-453e-89be-daa244e04686
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=1927e513-38e4-453e-89be-daa244e04686
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=dd926f6f-87dd-4699-b028-02741cf36431
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=dd926f6f-87dd-4699-b028-02741cf36431
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=7dd37b85-464d-41e7-b346-d645737ee0a4
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=dd926f6f-87dd-4699-b028-02741cf36431
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=7dd37b85-464d-41e7-b346-d645737ee0a4
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=6ea80939-8e30-4b25-87f8-4f884631e8c0
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=6ea80939-8e30-4b25-87f8-4f884631e8c0
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=6ea80939-8e30-4b25-87f8-4f884631e8c0
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=70efd94a-a80c-467a-b019-eae580decf40
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=70efd94a-a80c-467a-b019-eae580decf40
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=7a3863ea-45d6-4d08-9401-ec35992c0c26
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=7a3863ea-45d6-4d08-9401-ec35992c0c26
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=8d7ee671-746a-4032-a85d-fcac45e2b997
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=8d7ee671-746a-4032-a85d-fcac45e2b997
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=8d7ee671-746a-4032-a85d-fcac45e2b997
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=696ebeb0-f5b4-4f5f-b5fa-b3bf74b83199
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=696ebeb0-f5b4-4f5f-b5fa-b3bf74b83199
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=15225ae4-a814-467d-bfbb-54734ccc129b
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=15225ae4-a814-467d-bfbb-54734ccc129b
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       AddItemAsync called with userId=ad2a8af0-16d1-11f0-9eeb-0242ac120019, productId=HQTGWGPNH4, quantity=10
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=ad2a8af0-16d1-11f0-9eeb-0242ac120019
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=ad2a8af0-16d1-11f0-9eeb-0242ac120019
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       EmptyCartAsync called with userId=ad2a8af0-16d1-11f0-9eeb-0242ac120019
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=49c4a9a4-5602-4a82-840f-abc9f464355c
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=49c4a9a4-5602-4a82-840f-abc9f464355c
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=b8201f59-e731-4f9d-bc11-96c74076b300
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=b8201f59-e731-4f9d-bc11-96c74076b300
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=fabd6a58-7ac4-4138-82c9-724c1974adb3
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=fabd6a58-7ac4-4138-82c9-724c1974adb3
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       AddItemAsync called with userId=af39bc30-16d1-11f0-9eeb-0242ac120019, productId=OLJCESPC7Z, quantity=2
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=af39bc30-16d1-11f0-9eeb-0242ac120019
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=96a4aa87-8ec4-422c-8894-7b0c555703e5
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=ea1b5511-5272-44e3-8720-dfd2fc8de1e2
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=ea1b5511-5272-44e3-8720-dfd2fc8de1e2
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=96a4aa87-8ec4-422c-8894-7b0c555703e5
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=88590c92-f6e2-467c-b07a-5104ce315f5b
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=88590c92-f6e2-467c-b07a-5104ce315f5b
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=be9ce174-2b81-446d-9fd2-f8f1d186ffc8
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=be9ce174-2b81-446d-9fd2-f8f1d186ffc8
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=2f460e58-b2f8-445d-a1d7-aa1e8e5c4fcb
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=2f460e58-b2f8-445d-a1d7-aa1e8e5c4fcb
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=be9ce174-2b81-446d-9fd2-f8f1d186ffc8
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=2f460e58-b2f8-445d-a1d7-aa1e8e5c4fcb
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=13806e9a-963a-49e0-b575-07b16cb83557
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=13806e9a-963a-49e0-b575-07b16cb83557
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=13806e9a-963a-49e0-b575-07b16cb83557
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       AddItemAsync called with userId=b258c7bc-16d1-11f0-9eeb-0242ac120019, productId=LS4PSXUNUM, quantity=4
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=b258c7bc-16d1-11f0-9eeb-0242ac120019
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=2ec6606e-e962-4bd1-8b4c-c06a7abd6bce
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=017d2e2a-6ff2-451e-a043-292e77b0644a
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=2ec6606e-e962-4bd1-8b4c-c06a7abd6bce
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=017d2e2a-6ff2-451e-a043-292e77b0644a
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=454a651d-9818-419d-baa7-f1a6ec1f037b
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=454a651d-9818-419d-baa7-f1a6ec1f037b
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=454a651d-9818-419d-baa7-f1a6ec1f037b
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=d6949829-e8c4-4a0d-849f-2f70ce39610b
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=858a4a1d-d609-46bd-8f3d-dfb5cdc1bb95
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=d6949829-e8c4-4a0d-849f-2f70ce39610b
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=858a4a1d-d609-46bd-8f3d-dfb5cdc1bb95
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=858a4a1d-d609-46bd-8f3d-dfb5cdc1bb95
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=9689a941-ae10-4b65-aec9-109fd8577f75
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=9689a941-ae10-4b65-aec9-109fd8577f75
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=053eff14-e7e5-4b3c-831b-0abb47e356fe
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=053eff14-e7e5-4b3c-831b-0abb47e356fe
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=053eff14-e7e5-4b3c-831b-0abb47e356fe
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=bfb67767-e236-4559-88f3-ef02765e79ce
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=bfb67767-e236-4559-88f3-ef02765e79ce
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=7822bc64-ae51-4fc0-99de-382af4fc3f06
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=7822bc64-ae51-4fc0-99de-382af4fc3f06
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=0798e5dd-e38f-4dad-a739-f4b8295061ce
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=0798e5dd-e38f-4dad-a739-f4b8295061ce
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       AddItemAsync called with userId=b6ee970c-16d1-11f0-9eeb-0242ac120019, productId=66VCHSJNUP, quantity=5
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=b6ee970c-16d1-11f0-9eeb-0242ac120019
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       AddItemAsync called with userId=b6ee970c-16d1-11f0-9eeb-0242ac120019, productId=2ZYFJ3GM2N, quantity=2
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=b6ee970c-16d1-11f0-9eeb-0242ac120019
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       AddItemAsync called with userId=b6ee970c-16d1-11f0-9eeb-0242ac120019, productId=1YMWWN1N4O, quantity=4
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=b6ee970c-16d1-11f0-9eeb-0242ac120019
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=b6ee970c-16d1-11f0-9eeb-0242ac120019
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       EmptyCartAsync called with userId=b6ee970c-16d1-11f0-9eeb-0242ac120019
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=8cbf38ba-56af-471a-b13a-efe3397c3d5b
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=8cbf38ba-56af-471a-b13a-efe3397c3d5b
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=8cbf38ba-56af-471a-b13a-efe3397c3d5b
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=08d2b859-aa9f-4884-8e3b-4faa0d811ae0
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=08d2b859-aa9f-4884-8e3b-4faa0d811ae0
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=4624847b-7767-49cf-96d8-d91463107de2
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=4624847b-7767-49cf-96d8-d91463107de2
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=4624847b-7767-49cf-96d8-d91463107de2
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=f7e2b572-0647-43a4-bf27-987268b3fdd5
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=f7e2b572-0647-43a4-bf27-987268b3fdd5
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=2769f199-1b2c-46d6-8095-e4f6b17d633d
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=2769f199-1b2c-46d6-8095-e4f6b17d633d
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=2769f199-1b2c-46d6-8095-e4f6b17d633d
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=c3177979-7f92-41f5-bd8f-7dd86cc335b9
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=c3177979-7f92-41f5-bd8f-7dd86cc335b9
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=0a9c2ce2-16f9-4c3b-8cfc-149437400d4d
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=0a9c2ce2-16f9-4c3b-8cfc-149437400d4d
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=0a9c2ce2-16f9-4c3b-8cfc-149437400d4d
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=39e09a2a-909c-43b3-8233-6eae5f096886
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=39e09a2a-909c-43b3-8233-6eae5f096886
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=386ddc78-d42d-464a-a82b-b87101ad58dc
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=386ddc78-d42d-464a-a82b-b87101ad58dc
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=386ddc78-d42d-464a-a82b-b87101ad58dc
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=c4984600-dd18-40e3-8d07-0db21b4f2680
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=c4984600-dd18-40e3-8d07-0db21b4f2680
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=7f88855f-85ce-4774-98e2-b99f26dbc98a
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=7f88855f-85ce-4774-98e2-b99f26dbc98a
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=7f88855f-85ce-4774-98e2-b99f26dbc98a
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=50cf330a-7e71-4e80-bf4e-880a7f171a2e
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=50cf330a-7e71-4e80-bf4e-880a7f171a2e
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=e09bcc33-d084-42b6-be4a-1b1c3f06dff5
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=e09bcc33-d084-42b6-be4a-1b1c3f06dff5
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=e09bcc33-d084-42b6-be4a-1b1c3f06dff5
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=90f896cb-ebdd-4358-a936-06ab33634b52
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=90f896cb-ebdd-4358-a936-06ab33634b52
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=90f896cb-ebdd-4358-a936-06ab33634b52
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=f8c3f5d2-29c7-40f3-91ef-31c41b908117
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=f8c3f5d2-29c7-40f3-91ef-31c41b908117
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=f8c3f5d2-29c7-40f3-91ef-31c41b908117
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=d5e248fd-efa5-4a68-8853-ce5fdf1ca416
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=d5e248fd-efa5-4a68-8853-ce5fdf1ca416
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=03f7ee74-d4c2-4fef-ab76-d1a87d3a829c
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=03f7ee74-d4c2-4fef-ab76-d1a87d3a829c
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=9f518218-9d35-445a-a5dd-177d91d72000
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=9f518218-9d35-445a-a5dd-177d91d72000
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=9f518218-9d35-445a-a5dd-177d91d72000
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=2c5d031f-09d5-446e-8de4-d41cd6447ea1
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=2c5d031f-09d5-446e-8de4-d41cd6447ea1
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=2c5d031f-09d5-446e-8de4-d41cd6447ea1
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=d9b28e16-3b38-46a6-9971-60778ab760bf
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=d9b28e16-3b38-46a6-9971-60778ab760bf
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=ecaf7676-fea5-4b98-8829-8d1ba51baa73
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=ecaf7676-fea5-4b98-8829-8d1ba51baa73
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=7669ed6e-2929-4155-93a7-d7abe049a0e5
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=7669ed6e-2929-4155-93a7-d7abe049a0e5
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=7669ed6e-2929-4155-93a7-d7abe049a0e5
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=c9999fff-c1cf-4f46-b599-def2e32c48eb
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=c9999fff-c1cf-4f46-b599-def2e32c48eb
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=aa245eb0-8fc2-4680-acdc-68d324065cfc
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=aa245eb0-8fc2-4680-acdc-68d324065cfc
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=aa245eb0-8fc2-4680-acdc-68d324065cfc
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=cf243517-b244-420e-a531-492db8e6f352
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=cf243517-b244-420e-a531-492db8e6f352
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=cf243517-b244-420e-a531-492db8e6f352
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=67c3480e-13e9-4f59-8173-1b969652e111
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=67c3480e-13e9-4f59-8173-1b969652e111
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       AddItemAsync called with userId=c49f3a5a-16d1-11f0-9eeb-0242ac120019, productId=1YMWWN1N4O, quantity=10
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=c49f3a5a-16d1-11f0-9eeb-0242ac120019
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=b9d8a65d-b427-462d-8cd2-09a766c1b64f
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=b9d8a65d-b427-462d-8cd2-09a766c1b64f
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=43be9b93-c267-4ae8-bafa-4c9fed0ccc5b
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=43be9b93-c267-4ae8-bafa-4c9fed0ccc5b
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=9a3c82d0-e30e-4120-b7c2-d782905fc059
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=9a3c82d0-e30e-4120-b7c2-d782905fc059
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=3e6c22de-193c-42ae-a132-2634212fa6b5
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=3e6c22de-193c-42ae-a132-2634212fa6b5
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=c0d218d6-e5ac-41b5-af66-83054a9bc71b
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=c0d218d6-e5ac-41b5-af66-83054a9bc71b
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=a1ee16c9-e32e-468a-8b72-ae955c9e75ce
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=c0d218d6-e5ac-41b5-af66-83054a9bc71b
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=a1ee16c9-e32e-468a-8b72-ae955c9e75ce
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=ab8a168a-2af6-4197-b796-ee3a8457f3f6
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=ab8a168a-2af6-4197-b796-ee3a8457f3f6
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=ab8a168a-2af6-4197-b796-ee3a8457f3f6
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=8eaf95e4-a260-4b36-8c03-da6189531ae2
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=8eaf95e4-a260-4b36-8c03-da6189531ae2
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=8eaf95e4-a260-4b36-8c03-da6189531ae2
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=4099ce7d-0df7-4721-a444-b82c0722d6d6
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=4099ce7d-0df7-4721-a444-b82c0722d6d6
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=c57efb94-2c6f-40a3-9412-71050f392b0a
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=c57efb94-2c6f-40a3-9412-71050f392b0a
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=51bd36e1-bdfb-49ec-81dd-9bcae1cd4858
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=51bd36e1-bdfb-49ec-81dd-9bcae1cd4858
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=9f200fc1-b3ad-4fcc-903a-1c57569bb4e9
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=9f200fc1-b3ad-4fcc-903a-1c57569bb4e9
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       AddItemAsync called with userId=cb0ccf74-16d1-11f0-9eeb-0242ac120019, productId=6E92ZMYYFZ, quantity=10
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=cb0ccf74-16d1-11f0-9eeb-0242ac120019
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=cb0ccf74-16d1-11f0-9eeb-0242ac120019
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       EmptyCartAsync called with userId=cb0ccf74-16d1-11f0-9eeb-0242ac120019
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=a9e9a4b8-428b-4921-8745-3fc076e388d4
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=a9e9a4b8-428b-4921-8745-3fc076e388d4
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=e5235ed6-c0db-4ad4-97bc-e18de551c3b9
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=a9e9a4b8-428b-4921-8745-3fc076e388d4
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=e5235ed6-c0db-4ad4-97bc-e18de551c3b9
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=ab72f622-4ae5-4021-bc85-f46b8a145836
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=ab72f622-4ae5-4021-bc85-f46b8a145836
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=ab72f622-4ae5-4021-bc85-f46b8a145836
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=ae110a09-cbe2-44fd-85a9-f1da8cb07480
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=ae110a09-cbe2-44fd-85a9-f1da8cb07480
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=ae110a09-cbe2-44fd-85a9-f1da8cb07480
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=0173f2c7-c42c-4cc1-b90e-2711620291bf
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=0173f2c7-c42c-4cc1-b90e-2711620291bf
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=e07f22f3-5cbc-47a9-92fc-a1fff8486a69
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=e07f22f3-5cbc-47a9-92fc-a1fff8486a69
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=e07f22f3-5cbc-47a9-92fc-a1fff8486a69
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=996517f3-38cb-4180-8443-81e78ebd91d8
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=996517f3-38cb-4180-8443-81e78ebd91d8
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=ac6421dc-6f92-48b1-85ce-8203eba49187
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=ac6421dc-6f92-48b1-85ce-8203eba49187
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=0e422745-18ab-4b66-a8b1-fe9cee0eca87
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=0e422745-18ab-4b66-a8b1-fe9cee0eca87
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=0e422745-18ab-4b66-a8b1-fe9cee0eca87
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=36c18572-252e-4d03-a94b-11b82f9da26e
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=efeacd15-ba53-4cf0-aba5-84918109cdfe
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=36c18572-252e-4d03-a94b-11b82f9da26e
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=36c18572-252e-4d03-a94b-11b82f9da26e
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=efeacd15-ba53-4cf0-aba5-84918109cdfe
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=efeacd15-ba53-4cf0-aba5-84918109cdfe
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=2837a7e5-b4f1-4be8-9b99-2996bae98e84
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=2837a7e5-b4f1-4be8-9b99-2996bae98e84
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=2837a7e5-b4f1-4be8-9b99-2996bae98e84
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=c9c21f97-49b3-45c6-98cb-db3098590154
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=c9c21f97-49b3-45c6-98cb-db3098590154
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=890901ae-9418-4c13-a9df-1ef81ab4ae75
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=890901ae-9418-4c13-a9df-1ef81ab4ae75
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=890901ae-9418-4c13-a9df-1ef81ab4ae75
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       AddItemAsync called with userId=d27bf42e-16d1-11f0-9eeb-0242ac120019, productId=L9ECAV7KIM, quantity=5
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=d27bf42e-16d1-11f0-9eeb-0242ac120019
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=bad50570-a182-4f6a-ae83-3f9c5d180140
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=bad50570-a182-4f6a-ae83-3f9c5d180140
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=bad50570-a182-4f6a-ae83-3f9c5d180140
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=bb4f8016-279a-421c-9952-79be3bc9dc2c
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=bb4f8016-279a-421c-9952-79be3bc9dc2c
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=bb4f8016-279a-421c-9952-79be3bc9dc2c
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=180bb33e-1e16-4c7c-b6e0-c3f08e608034
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=180bb33e-1e16-4c7c-b6e0-c3f08e608034
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=8e9628e0-52b6-452d-9614-3250e56bf6b1
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=8e9628e0-52b6-452d-9614-3250e56bf6b1
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=8e9628e0-52b6-452d-9614-3250e56bf6b1
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=60c1d0e6-be2e-4af7-b695-aaa517946350
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=60c1d0e6-be2e-4af7-b695-aaa517946350
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=527071cf-6331-4396-98f9-d62da689f577
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=527071cf-6331-4396-98f9-d62da689f577
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=527071cf-6331-4396-98f9-d62da689f577
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=4a67ee0b-9b0a-4a22-b325-36f9c5fcc026
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=4a67ee0b-9b0a-4a22-b325-36f9c5fcc026
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=3b88e270-1d70-47b3-a36a-145a1baa526b
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=3b88e270-1d70-47b3-a36a-145a1baa526b
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=3b88e270-1d70-47b3-a36a-145a1baa526b
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=3d3ad100-25f4-4a3c-977b-0c0241786775
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=3d3ad100-25f4-4a3c-977b-0c0241786775
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=c096a666-57ad-4233-a141-49ab61ecc41f
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=c096a666-57ad-4233-a141-49ab61ecc41f
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=d3526296-c060-4c3d-9299-ac70a9022ee8
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=d3526296-c060-4c3d-9299-ac70a9022ee8
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=d3526296-c060-4c3d-9299-ac70a9022ee8
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=acef3da2-5364-4b94-9c82-7c3894a35eae
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=acef3da2-5364-4b94-9c82-7c3894a35eae
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=44ff0bc3-99df-4f1c-8952-3eece8b63147
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=44ff0bc3-99df-4f1c-8952-3eece8b63147
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=fae7a15f-ff27-4ac5-9f0e-c580557c2066
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=fae7a15f-ff27-4ac5-9f0e-c580557c2066
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=bacfc9ad-af70-45d8-a50c-8b2b9b86c9ee
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=bacfc9ad-af70-45d8-a50c-8b2b9b86c9ee
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=bacfc9ad-af70-45d8-a50c-8b2b9b86c9ee
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=547d7394-e3bf-4051-87c1-79516ddbd980
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=547d7394-e3bf-4051-87c1-79516ddbd980
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=cf882489-809d-49d9-849c-ecf969df3f20
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=cf882489-809d-49d9-849c-ecf969df3f20
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=17dcf280-d322-4bf1-b74a-884bf3036fb4
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=17dcf280-d322-4bf1-b74a-884bf3036fb4
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=17dcf280-d322-4bf1-b74a-884bf3036fb4
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=6afaa565-ff2b-4863-ad02-4b4af4f02c78
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=6afaa565-ff2b-4863-ad02-4b4af4f02c78
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=ea4b7a43-9240-4dd2-95b3-d6df336bcd3d
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=ea4b7a43-9240-4dd2-95b3-d6df336bcd3d
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=ea4b7a43-9240-4dd2-95b3-d6df336bcd3d
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=c9e32fee-45a8-41cb-9264-2acb8c58dfdc
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=c9e32fee-45a8-41cb-9264-2acb8c58dfdc
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=6df95b92-aed0-49fd-998b-2166040cf542
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=6df95b92-aed0-49fd-998b-2166040cf542
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=6ef66ba7-7770-4422-92cf-2b4f447e078c
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=6ef66ba7-7770-4422-92cf-2b4f447e078c
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=6ef66ba7-7770-4422-92cf-2b4f447e078c
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=158c5c83-550a-4763-ac9f-f0872aa72fa0
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=158c5c83-550a-4763-ac9f-f0872aa72fa0
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=158c5c83-550a-4763-ac9f-f0872aa72fa0
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=815e8178-e3d9-4cfb-b7e0-2d4cf8c6a4b6
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=815e8178-e3d9-4cfb-b7e0-2d4cf8c6a4b6
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=e12719f0-f87b-4ef7-b9f2-a48ff2bce6f0
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=e12719f0-f87b-4ef7-b9f2-a48ff2bce6f0
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=a4763947-a6f2-46da-87ac-8b5b993f2c5f
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=a4763947-a6f2-46da-87ac-8b5b993f2c5f
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=f480c875-d711-4c98-8211-594a420c5c25
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=f480c875-d711-4c98-8211-594a420c5c25
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=f46ddef7-1c82-4f58-b1e5-37abf4cdc463
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=f46ddef7-1c82-4f58-b1e5-37abf4cdc463
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=f46ddef7-1c82-4f58-b1e5-37abf4cdc463
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=59a19f4c-c468-4585-a2d4-fa6235c9572f
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=59a19f4c-c468-4585-a2d4-fa6235c9572f
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=59a19f4c-c468-4585-a2d4-fa6235c9572f
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=b48b329a-80c7-4e43-a6f9-f3ad77b22f4a
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=b48b329a-80c7-4e43-a6f9-f3ad77b22f4a
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=b48b329a-80c7-4e43-a6f9-f3ad77b22f4a
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=b8a95f9f-e91c-455d-8805-fc8fb113c1a5
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=b8a95f9f-e91c-455d-8805-fc8fb113c1a5
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=f0e15ea7-416b-4b28-8335-4ba199c2e1f6
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=b8a95f9f-e91c-455d-8805-fc8fb113c1a5
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=f0e15ea7-416b-4b28-8335-4ba199c2e1f6
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=f0e15ea7-416b-4b28-8335-4ba199c2e1f6
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=1067adc9-36f2-430b-a6d6-6420d22a3a2a
+cart  | info: cart.cartstore.ValkeyCartStore[0]
+cart  |       GetCartAsync called with userId=1067adc9-36f2-430b-a6d6-6420d22a3a2a

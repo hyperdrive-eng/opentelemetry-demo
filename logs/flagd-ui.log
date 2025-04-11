@@ -1,0 +1,10 @@
+flagd-ui  | 
+flagd-ui  | > flagd-ui@0.1.0 start
+flagd-ui  | > next start -p 4000 -H 0.0.0.0
+flagd-ui  | 
+flagd-ui  |    ▲ Next.js 15.2.2
+flagd-ui  |    - Local:        http://localhost:4000
+flagd-ui  |    - Network:      http://0.0.0.0:4000
+flagd-ui  | 
+flagd-ui  |  ✓ Starting...
+flagd-ui  |  ✓ Ready in 697ms
