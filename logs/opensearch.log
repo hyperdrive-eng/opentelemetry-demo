@@ -5,239 +5,251 @@ opensearch  | WARNING: A terminally deprecated method in java.lang.System has be
 opensearch  | WARNING: System::setSecurityManager has been called by org.opensearch.bootstrap.OpenSearch (file:/usr/share/opensearch/lib/opensearch-2.19.0.jar)
 opensearch  | WARNING: Please consider reporting this to the maintainers of org.opensearch.bootstrap.OpenSearch
 opensearch  | WARNING: System::setSecurityManager will be removed in a future release
-opensearch  | Apr 11, 2025 12:35:46 PM sun.util.locale.provider.LocaleProviderAdapter <clinit>
+opensearch  | Apr 21, 2025 10:29:05 AM sun.util.locale.provider.LocaleProviderAdapter <clinit>
 opensearch  | WARNING: COMPAT locale provider will be removed in a future release
 opensearch  | WARNING: A terminally deprecated method in java.lang.System has been called
 opensearch  | WARNING: System::setSecurityManager has been called by org.opensearch.bootstrap.Security (file:/usr/share/opensearch/lib/opensearch-2.19.0.jar)
 opensearch  | WARNING: Please consider reporting this to the maintainers of org.opensearch.bootstrap.Security
 opensearch  | WARNING: System::setSecurityManager will be removed in a future release
-opensearch  | [2025-04-11T12:35:47,290][INFO ][o.o.n.Node               ] [demo-node] version[2.19.0], pid[1], build[tar/fd9a9d90df25bea1af2c6a85039692e815b894f5/2025-02-05T16:13:57.130576800Z], OS[Linux/6.12.5-linuxkit/aarch64], JVM[Eclipse Adoptium/OpenJDK 64-Bit Server VM/21.0.6/21.0.6+7-LTS]
-opensearch  | [2025-04-11T12:35:47,291][INFO ][o.o.n.Node               ] [demo-node] JVM home [/usr/share/opensearch/jdk], using bundled JDK/JRE [true]
-opensearch  | [2025-04-11T12:35:47,291][INFO ][o.o.n.Node               ] [demo-node] JVM arguments [-Xshare:auto, -Dopensearch.networkaddress.cache.ttl=60, -Dopensearch.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -XX:+ShowCodeDetailsInExceptionMessages, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dio.netty.allocator.numDirectArenas=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.security.manager=allow, -Djava.locale.providers=SPI,COMPAT, -Xms1g, -Xmx1g, -XX:+UseG1GC, -XX:G1ReservePercent=25, -XX:InitiatingHeapOccupancyPercent=30, -Djava.io.tmpdir=/tmp/opensearch-2035786688032982704, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -Djava.security.manager=allow, --add-modules=jdk.incubator.vector, -Djava.util.concurrent.ForkJoinPool.common.threadFactory=org.opensearch.secure_sm.SecuredForkJoinWorkerThreadFactory, -Dclk.tck=100, -Djdk.attach.allowAttachSelf=true, -Djava.security.policy=/usr/share/opensearch/config/opensearch-performance-analyzer/opensearch_security.policy, --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED, -Dopensearch.cgroups.hierarchy.override=/, -Xms300m, -Xmx300m, -XX:MaxDirectMemorySize=157286400, -Dopensearch.path.home=/usr/share/opensearch, -Dopensearch.path.conf=/usr/share/opensearch/config, -Dopensearch.distribution.type=tar, -Dopensearch.bundled_jdk=true]
-opensearch  | [2025-04-11T12:35:47,455][INFO ][o.a.l.i.v.PanamaVectorizationProvider] [demo-node] Java vector incubator API enabled; uses preferredBitSize=128; FMA enabled
-opensearch  | [2025-04-11T12:35:48,068][INFO ][o.o.s.s.t.SSLConfig      ] [demo-node] SSL dual mode is disabled
-opensearch  | [2025-04-11T12:35:48,069][WARN ][o.o.s.OpenSearchSecurityPlugin] [demo-node] OpenSearch Security plugin installed but disabled. This can expose your configuration (including passwords) to the public.
-opensearch  | [2025-04-11T12:35:48,793][INFO ][o.o.p.c.c.PluginSettings ] [demo-node] Config: metricsLocation: /dev/shm/performanceanalyzer/, metricsDeletionInterval: 1, httpsEnabled: false, cleanup-metrics-db-files: true, batch-metrics-retention-period-minutes: 7, rpc-port: 9650, webservice-port 9600
-opensearch  | [2025-04-11T12:35:49,113][INFO ][o.o.i.r.ReindexPlugin    ] [demo-node] ReindexPlugin reloadSPI called
-opensearch  | [2025-04-11T12:35:49,114][INFO ][o.o.i.r.ReindexPlugin    ] [demo-node] Unable to find any implementation for RemoteReindexExtension
-opensearch  | [2025-04-11T12:35:49,139][INFO ][o.o.j.JobSchedulerPlugin ] [demo-node] Loaded scheduler extension: reports-scheduler, index: .opendistro-reports-definitions
-opensearch  | [2025-04-11T12:35:49,140][INFO ][o.o.j.JobSchedulerPlugin ] [demo-node] Loaded scheduler extension: opensearch_time_series_analytics, index: .opendistro-anomaly-detector-jobs
-opensearch  | [2025-04-11T12:35:49,140][INFO ][o.o.j.JobSchedulerPlugin ] [demo-node] Loaded scheduler extension: opendistro-index-management, index: .opendistro-ism-config
-opensearch  | [2025-04-11T12:35:49,142][INFO ][o.o.j.JobSchedulerPlugin ] [demo-node] Loaded scheduler extension: checkBatchJobTaskStatus, index: .ml_commons_task_polling_job
-opensearch  | [2025-04-11T12:35:49,142][INFO ][o.o.j.JobSchedulerPlugin ] [demo-node] Loaded scheduler extension: scheduler_geospatial_ip2geo_datasource, index: .scheduler-geospatial-ip2geo-datasource
-opensearch  | [2025-04-11T12:35:49,143][INFO ][o.o.j.JobSchedulerPlugin ] [demo-node] Loaded scheduler extension: opensearch_sap_job, index: .opensearch-sap--job
-opensearch  | [2025-04-11T12:35:49,143][INFO ][o.o.j.JobSchedulerPlugin ] [demo-node] Loaded scheduler extension: async-query-scheduler, index: .async-query-scheduler
-opensearch  | [2025-04-11T12:35:49,154][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [aggs-matrix-stats]
-opensearch  | [2025-04-11T12:35:49,154][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [analysis-common]
-opensearch  | [2025-04-11T12:35:49,154][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [cache-common]
-opensearch  | [2025-04-11T12:35:49,154][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [geo]
-opensearch  | [2025-04-11T12:35:49,154][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [ingest-common]
-opensearch  | [2025-04-11T12:35:49,154][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [ingest-geoip]
-opensearch  | [2025-04-11T12:35:49,154][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [ingest-user-agent]
-opensearch  | [2025-04-11T12:35:49,154][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [lang-expression]
-opensearch  | [2025-04-11T12:35:49,154][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [lang-mustache]
-opensearch  | [2025-04-11T12:35:49,154][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [lang-painless]
-opensearch  | [2025-04-11T12:35:49,154][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [mapper-extras]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [opensearch-dashboards]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [parent-join]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [percolator]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [rank-eval]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [reindex]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [repository-url]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [search-pipeline-common]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [systemd]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [transport-netty4]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-alerting]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-anomaly-detection]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-asynchronous-search]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-cross-cluster-replication]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-custom-codecs]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-flow-framework]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-geospatial]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-index-management]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-job-scheduler]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-knn]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-ltr]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-ml]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-neural-search]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-notifications]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-notifications-core]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-observability]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-performance-analyzer]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-reports-scheduler]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-security]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-security-analytics]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-skills]
-opensearch  | [2025-04-11T12:35:49,155][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-sql]
-opensearch  | [2025-04-11T12:35:49,156][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-system-templates]
-opensearch  | [2025-04-11T12:35:49,156][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [query-insights]
-opensearch  | [2025-04-11T12:35:49,203][WARN ][stderr                   ] [demo-node] WARNING: A restricted method in java.lang.foreign.Linker has been called
-opensearch  | [2025-04-11T12:35:49,203][WARN ][stderr                   ] [demo-node] WARNING: java.lang.foreign.Linker::downcallHandle has been called by the unnamed module
-opensearch  | [2025-04-11T12:35:49,203][WARN ][stderr                   ] [demo-node] WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for this module
-opensearch  | [2025-04-11T12:35:49,227][INFO ][o.a.l.s.MemorySegmentIndexInputProvider] [demo-node] Using MemorySegmentIndexInput and native madvise support with Java 21 or later; to disable start with -Dorg.apache.lucene.store.MMapDirectory.enableMemorySegments=false
-opensearch  | [2025-04-11T12:35:49,230][INFO ][o.o.e.NodeEnvironment    ] [demo-node] using [1] data paths, mounts [[/ (overlay)]], net usable_space [10.3gb], net total_space [58.3gb], types [overlay]
-opensearch  | [2025-04-11T12:35:49,230][INFO ][o.o.e.NodeEnvironment    ] [demo-node] heap size [300mb], compressed ordinary object pointers [true]
-opensearch  | [2025-04-11T12:35:49,244][INFO ][o.o.n.Node               ] [demo-node] node name [demo-node], node ID [FJk2hleBT1eIBif3SmqPxQ], cluster name [demo-cluster], roles [ingest, remote_cluster_client, data, cluster_manager]
-opensearch  | [2025-04-11T12:35:49,266][INFO ][o.o.e.ExtensionsManager  ] [demo-node] ExtensionsManager initialized
-opensearch  | [2025-04-11T12:35:50,084][DEPRECATION][o.o.d.c.s.Settings       ] [demo-node] [index.store.hybrid.mmap.extensions] setting was deprecated in OpenSearch and will be removed in a future release! See the breaking changes documentation for the next major version.
-opensearch  | [2025-04-11T12:35:50,448][INFO ][o.o.n.p.NeuralSearch     ] [demo-node] Registering hybrid query phase searcher with feature flag [plugins.neural_search.hybrid_search_disabled]
-opensearch  | [2025-04-11T12:35:50,680][INFO ][o.o.l.b.LTRCircuitBreakerService] [demo-node] Registered memory breaker.
-opensearch  | [2025-04-11T12:35:50,698][INFO ][o.o.r.m.c.i.SdkClientFactory] [demo-node] Using local opensearch cluster as metadata store.
-opensearch  | [2025-04-11T12:35:50,771][INFO ][o.o.t.b.CircuitBreakerService] [demo-node] Registered memory breaker.
-opensearch  | [2025-04-11T12:35:50,958][INFO ][o.o.r.m.c.i.SdkClientFactory] [demo-node] Using local opensearch cluster as metadata store.
-opensearch  | [2025-04-11T12:35:50,967][INFO ][o.o.m.b.MLCircuitBreakerService] [demo-node] Registered ML memory breaker.
-opensearch  | [2025-04-11T12:35:50,967][INFO ][o.o.m.b.MLCircuitBreakerService] [demo-node] Registered ML disk breaker.
-opensearch  | [2025-04-11T12:35:50,967][INFO ][o.o.m.b.MLCircuitBreakerService] [demo-node] Registered ML native memory breaker.
-opensearch  | [2025-04-11T12:35:51,019][INFO ][o.r.Reflections          ] [demo-node] Reflections took 29 ms to scan 1 urls, producing 27 keys and 67 values 
-opensearch  | [2025-04-11T12:35:51,030][INFO ][o.r.Reflections          ] [demo-node] Reflections took 1 ms to scan 1 urls, producing 3 keys and 5 values 
-opensearch  | [2025-04-11T12:35:51,125][WARN ][o.o.s.p.SQLPlugin        ] [demo-node] Master key is a required config for using create and update datasource APIs. Please set plugins.query.datasources.encryption.masterkey config in opensearch.yml in all the cluster nodes. More details can be found here: https://github.com/opensearch-project/sql/blob/main/docs/user/ppl/admin/datasources.rst#master-key-config-for-encrypting-credential-information
-opensearch  | [2025-04-11T12:35:51,530][INFO ][o.o.t.NettyAllocator     ] [demo-node] creating NettyAllocator with the following configs: [name=unpooled, suggested_max_allocation_size=256kb, factors={opensearch.unsafe.use_unpooled_allocator=null, g1gc_enabled=true, g1gc_region_size=1mb, heap_size=300mb}]
-opensearch  | [2025-04-11T12:35:51,578][INFO ][o.o.d.DiscoveryModule    ] [demo-node] using discovery type [single-node] and seed hosts providers [settings]
-opensearch  | [2025-04-11T12:35:51,815][WARN ][o.o.g.DanglingIndicesState] [demo-node] gateway.auto_import_dangling_indices is disabled, dangling indices will not be automatically detected or imported and must be managed manually
-opensearch  | [2025-04-11T12:35:52,081][INFO ][o.o.p.h.c.PerformanceAnalyzerConfigAction] [demo-node] PerformanceAnalyzer Enabled: false
-opensearch  | [2025-04-11T12:35:52,101][INFO ][o.o.n.Node               ] [demo-node] initialized
-opensearch  | [2025-04-11T12:35:52,102][INFO ][o.o.n.Node               ] [demo-node] starting ...
-opensearch  | [2025-04-11T12:35:52,120][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [windows_logtype.json] log type
-opensearch  | [2025-04-11T12:35:52,120][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [waf_logtype.json] log type
-opensearch  | [2025-04-11T12:35:52,121][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [vpcflow_logtype.json] log type
-opensearch  | [2025-04-11T12:35:52,121][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [test_windows_logtype.json] log type
-opensearch  | [2025-04-11T12:35:52,121][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [s3_logtype.json] log type
-opensearch  | [2025-04-11T12:35:52,121][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [others_web_logtype.json] log type
-opensearch  | [2025-04-11T12:35:52,121][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [others_proxy_logtype.json] log type
-opensearch  | [2025-04-11T12:35:52,121][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [others_macos_logtype.json] log type
-opensearch  | [2025-04-11T12:35:52,122][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [others_compliance_logtype.json] log type
-opensearch  | [2025-04-11T12:35:52,122][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [others_cloud_logtype.json] log type
-opensearch  | [2025-04-11T12:35:52,122][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [others_apt_logtype.json] log type
-opensearch  | [2025-04-11T12:35:52,122][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [others_application_logtype.json] log type
-opensearch  | [2025-04-11T12:35:52,122][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [okta_logtype.json] log type
-opensearch  | [2025-04-11T12:35:52,122][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [network_logtype.json] log type
-opensearch  | [2025-04-11T12:35:52,122][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [netflow_logtype.json] log type
-opensearch  | [2025-04-11T12:35:52,122][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [m365_logtype.json] log type
-opensearch  | [2025-04-11T12:35:52,123][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [linux_logtype.json] log type
-opensearch  | [2025-04-11T12:35:52,123][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [gworkspace_logtype.json] log type
-opensearch  | [2025-04-11T12:35:52,123][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [github_logtype.json] log type
-opensearch  | [2025-04-11T12:35:52,123][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [dns_logtype.json] log type
-opensearch  | [2025-04-11T12:35:52,123][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [cloudtrail_logtype.json] log type
-opensearch  | [2025-04-11T12:35:52,123][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [azure_logtype.json] log type
-opensearch  | [2025-04-11T12:35:52,124][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [apache_access_logtype.json] log type
-opensearch  | [2025-04-11T12:35:52,124][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [ad_ldap_logtype.json] log type
-opensearch  | [2025-04-11T12:35:52,178][INFO ][o.o.t.TransportService   ] [demo-node] publish_address {172.18.0.8:9300}, bound_addresses {[::]:9300}
-opensearch  | [2025-04-11T12:35:52,178][INFO ][o.o.t.TransportService   ] [demo-node] Remote clusters initialized successfully.
-opensearch  | [2025-04-11T12:35:52,254][INFO ][o.o.c.c.Coordinator      ] [demo-node] setting initial configuration to VotingConfiguration{FJk2hleBT1eIBif3SmqPxQ}
-opensearch  | [2025-04-11T12:35:52,379][INFO ][o.o.c.s.MasterService    ] [demo-node] Tasks batched with key: org.opensearch.cluster.coordination.JoinHelper, count:3 and sample tasks: elected-as-cluster-manager ([1] nodes joined)[{demo-node}{FJk2hleBT1eIBif3SmqPxQ}{tKmPRr2QRXKyCcQebeGr3g}{172.18.0.8}{172.18.0.8:9300}{dimr}{shard_indexing_pressure_enabled=true} elect leader, _BECOME_CLUSTER_MANAGER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: cluster-manager node changed {previous [], current [{demo-node}{FJk2hleBT1eIBif3SmqPxQ}{tKmPRr2QRXKyCcQebeGr3g}{172.18.0.8}{172.18.0.8:9300}{dimr}{shard_indexing_pressure_enabled=true}]}
-opensearch  | [2025-04-11T12:35:52,395][INFO ][o.o.c.c.CoordinationState] [demo-node] cluster UUID set to [UOw3Hp0fTQOX8IdJcGmnQg]
-opensearch  | [2025-04-11T12:35:52,403][INFO ][o.o.c.s.ClusterApplierService] [demo-node] cluster-manager node changed {previous [], current [{demo-node}{FJk2hleBT1eIBif3SmqPxQ}{tKmPRr2QRXKyCcQebeGr3g}{172.18.0.8}{172.18.0.8:9300}{dimr}{shard_indexing_pressure_enabled=true}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
-opensearch  | [2025-04-11T12:35:52,406][INFO ][o.o.t.i.IndexManagement  ] [demo-node] Candidate custom result indices are empty.
-opensearch  | [2025-04-11T12:35:52,406][INFO ][o.o.t.i.IndexManagement  ] [demo-node] Candidate custom result indices are empty.
-opensearch  | [2025-04-11T12:35:52,406][INFO ][o.o.t.c.ClusterEventListener] [demo-node] Cluster is not recovered yet.
-opensearch  | [2025-04-11T12:35:52,421][INFO ][o.o.i.i.ManagedIndexCoordinator] [demo-node] Cache cluster manager node onClusterManager time: 1744374952421
-opensearch  | [2025-04-11T12:35:52,425][WARN ][o.o.p.c.s.h.ConfigOverridesClusterSettingHandler] [demo-node] Config override setting update called with empty string. Ignoring.
-opensearch  | [2025-04-11T12:35:52,428][INFO ][o.o.d.PeerFinder         ] [demo-node] setting findPeersInterval to [1s] as node commission status = [true] for local node [{demo-node}{FJk2hleBT1eIBif3SmqPxQ}{tKmPRr2QRXKyCcQebeGr3g}{172.18.0.8}{172.18.0.8:9300}{dimr}{shard_indexing_pressure_enabled=true}]
-opensearch  | [2025-04-11T12:35:52,429][WARN ][o.o.c.r.a.AllocationService] [demo-node] Falling back to single shard assignment since batch mode disable or multiple custom allocators set
-opensearch  | [2025-04-11T12:35:52,434][INFO ][o.o.h.AbstractHttpServerTransport] [demo-node] publish_address {172.18.0.8:9200}, bound_addresses {[::]:9200}
-opensearch  | [2025-04-11T12:35:52,434][INFO ][o.o.n.Node               ] [demo-node] started
-opensearch  | [2025-04-11T12:35:52,434][WARN ][o.o.c.r.a.AllocationService] [demo-node] Falling back to single shard assignment since batch mode disable or multiple custom allocators set
-opensearch  | [2025-04-11T12:35:52,435][INFO ][o.o.s.OpenSearchSecurityPlugin] [demo-node] 0 OpenSearch Security modules loaded so far: []
-opensearch  | [2025-04-11T12:35:52,440][INFO ][o.o.t.c.HashRing         ] [demo-node] Node added: [FJk2hleBT1eIBif3SmqPxQ]
-opensearch  | [2025-04-11T12:35:52,442][INFO ][o.o.t.c.HashRing         ] [demo-node] Add data node to version hash ring: FJk2hleBT1eIBif3SmqPxQ
-opensearch  | [2025-04-11T12:35:52,443][INFO ][o.o.t.c.HashRing         ] [demo-node] All nodes with known version: {FJk2hleBT1eIBif3SmqPxQ=ADNodeInfo{version=2.19.0, isEligibleDataNode=true}}
-opensearch  | [2025-04-11T12:35:52,443][INFO ][o.o.t.c.HashRing         ] [demo-node] Rebuild hash ring for realtime with cooldown, nodeChangeEvents size 0
-opensearch  | [2025-04-11T12:35:52,443][INFO ][o.o.t.c.HashRing         ] [demo-node] Build version hash ring successfully
-opensearch  | [2025-04-11T12:35:52,444][INFO ][o.o.t.c.ADDataMigrator   ] [demo-node] Start migrating AD data
-opensearch  | [2025-04-11T12:35:52,444][INFO ][o.o.t.c.ADDataMigrator   ] [demo-node] AD job index doesn't exist, no need to migrate
-opensearch  | [2025-04-11T12:35:52,444][INFO ][o.o.t.c.ClusterEventListener] [demo-node] Init version hash ring successfully
-opensearch  | [2025-04-11T12:35:52,450][INFO ][o.o.g.GatewayService     ] [demo-node] recovered [0] indices into cluster_state
-opensearch  | [2025-04-11T12:35:52,462][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[.opensearch-observability/pEZslZ-zSsihux2_-f_0Mw]
-opensearch  | [2025-04-11T12:35:52,527][INFO ][o.o.c.m.MetadataCreateIndexService] [demo-node] [.opensearch-observability] creating index, cause [api], templates [], shards [1]/[0]
-opensearch  | [2025-04-11T12:35:52,530][WARN ][o.o.c.r.a.AllocationService] [demo-node] Falling back to single shard assignment since batch mode disable or multiple custom allocators set
-opensearch  | [2025-04-11T12:35:52,548][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[.opensearch-observability/pEZslZ-zSsihux2_-f_0Mw]
-opensearch  | [2025-04-11T12:35:52,570][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[.opensearch-sap-log-types-config/uqb2u2pPREKEcm7UWDg-gQ]
-opensearch  | [2025-04-11T12:35:52,576][INFO ][o.o.c.m.MetadataCreateIndexService] [demo-node] [.opensearch-sap-log-types-config] creating index, cause [auto(sap-logtype api)], templates [], shards [1]/[1]
-opensearch  | [2025-04-11T12:35:52,576][INFO ][o.o.c.r.a.AllocationService] [demo-node] updating number_of_replicas to [0] for indices [.opensearch-sap-log-types-config]
-opensearch  | [2025-04-11T12:35:52,576][WARN ][o.o.c.r.a.AllocationService] [demo-node] Falling back to single shard assignment since batch mode disable or multiple custom allocators set
-opensearch  | [2025-04-11T12:35:52,586][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[.opensearch-sap-log-types-config/uqb2u2pPREKEcm7UWDg-gQ]
-opensearch  | [2025-04-11T12:35:52,635][INFO ][o.o.s.l.LogTypeService   ] [demo-node] Loading builtin types!
-opensearch  | [2025-04-11T12:35:52,637][INFO ][o.o.s.l.LogTypeService   ] [demo-node] Indexing [432] fieldMappingDocs from logTypes: 24
-opensearch  | [2025-04-11T12:35:52,652][INFO ][o.o.c.r.a.AllocationService] [demo-node] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[.opensearch-observability][0]]]).
-opensearch  | [2025-04-11T12:35:52,664][INFO ][o.o.o.i.ObservabilityIndex] [demo-node] observability:Index .opensearch-observability creation Acknowledged
-opensearch  | [2025-04-11T12:35:52,664][WARN ][o.o.c.r.a.AllocationService] [demo-node] Falling back to single shard assignment since batch mode disable or multiple custom allocators set
-opensearch  | [2025-04-11T12:35:52,674][INFO ][o.o.s.l.LogTypeService   ] [demo-node] Indexing [432] fieldMappingDocs
-opensearch  | [2025-04-11T12:35:52,695][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[.opensearch-sap-log-types-config/uqb2u2pPREKEcm7UWDg-gQ]
-opensearch  | [2025-04-11T12:35:52,700][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [.opensearch-sap-log-types-config/uqb2u2pPREKEcm7UWDg-gQ] update_mapping [_doc]
-opensearch  | [2025-04-11T12:35:52,725][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[.opensearch-sap-log-types-config/uqb2u2pPREKEcm7UWDg-gQ]
-opensearch  | [2025-04-11T12:35:52,729][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [.opensearch-sap-log-types-config/uqb2u2pPREKEcm7UWDg-gQ] update_mapping [_doc]
-opensearch  | [2025-04-11T12:35:52,851][INFO ][o.o.s.l.LogTypeService   ] [demo-node] Loaded [432] field mapping docs successfully!
-opensearch  | [2025-04-11T12:35:52,858][INFO ][o.o.s.l.LogTypeService   ] [demo-node] Indexing [23] customLogTypes
-opensearch  | [2025-04-11T12:35:52,872][INFO ][o.o.s.l.LogTypeService   ] [demo-node] Loaded [23] customLogType docs successfully!
-opensearch  | [2025-04-11T12:35:52,873][INFO ][o.o.s.SecurityAnalyticsPlugin] [demo-node] LogType config index successfully created and builtin log types loaded
-opensearch  | [2025-04-11T12:35:53,430][INFO ][o.o.s.i.DetectorIndexManagementService] [demo-node] info deleteOldIndices
-opensearch  | [2025-04-11T12:35:53,431][INFO ][o.o.s.i.DetectorIndexManagementService] [demo-node] No Old Correlation Indices to delete
-opensearch  | [2025-04-11T12:35:53,432][INFO ][o.o.s.l.LogTypeService   ] [demo-node] Indexing [23] customLogTypes
-opensearch  | [2025-04-11T12:35:53,432][INFO ][o.o.s.i.DetectorIndexManagementService] [demo-node] info deleteOldIndices
-opensearch  | [2025-04-11T12:35:53,432][INFO ][o.o.s.i.DetectorIndexManagementService] [demo-node] No Old IOC Findings Indices to delete
-opensearch  | [2025-04-11T12:35:53,439][INFO ][o.o.s.l.LogTypeService   ] [demo-node] Indexing [23] customLogTypes
-opensearch  | [2025-04-11T12:35:53,473][INFO ][o.o.s.l.LogTypeService   ] [demo-node] Loaded [23] customLogType docs successfully!
-opensearch  | [2025-04-11T12:35:53,480][INFO ][o.o.s.l.LogTypeService   ] [demo-node] Loaded [23] customLogType docs successfully!
-opensearch  | [2025-04-11T12:35:53,516][INFO ][o.o.s.i.DetectorIndexManagementService] [demo-node] info deleteOldIndices
-opensearch  | [2025-04-11T12:35:53,516][INFO ][o.o.s.i.DetectorIndexManagementService] [demo-node] info deleteOldIndices
-opensearch  | [2025-04-11T12:35:53,517][INFO ][o.o.s.i.DetectorIndexManagementService] [demo-node] No Old Finding Indices to delete
-opensearch  | [2025-04-11T12:35:53,517][INFO ][o.o.s.i.DetectorIndexManagementService] [demo-node] No Old Alert Indices to delete
-opensearch  | [2025-04-11T12:35:56,044][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/tuIeIO1CTP-m9PhnrZWRkg]
-opensearch  | [2025-04-11T12:35:56,046][INFO ][o.o.c.m.MetadataCreateIndexService] [demo-node] [otel] creating index, cause [auto(bulk api)], templates [], shards [1]/[1]
-opensearch  | [2025-04-11T12:35:56,046][WARN ][o.o.c.r.a.AllocationService] [demo-node] Falling back to single shard assignment since batch mode disable or multiple custom allocators set
-opensearch  | [2025-04-11T12:35:56,066][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/tuIeIO1CTP-m9PhnrZWRkg]
-opensearch  | [2025-04-11T12:35:56,120][WARN ][o.o.c.r.a.AllocationService] [demo-node] Falling back to single shard assignment since batch mode disable or multiple custom allocators set
-opensearch  | [2025-04-11T12:35:56,139][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/tuIeIO1CTP-m9PhnrZWRkg]
-opensearch  | [2025-04-11T12:35:56,145][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/tuIeIO1CTP-m9PhnrZWRkg] create_mapping
-opensearch  | [2025-04-11T12:36:00,576][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/tuIeIO1CTP-m9PhnrZWRkg]
-opensearch  | [2025-04-11T12:36:00,595][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/tuIeIO1CTP-m9PhnrZWRkg] update_mapping [_doc]
-opensearch  | [2025-04-11T12:36:00,642][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/tuIeIO1CTP-m9PhnrZWRkg]
-opensearch  | [2025-04-11T12:36:00,650][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/tuIeIO1CTP-m9PhnrZWRkg] update_mapping [_doc]
-opensearch  | [2025-04-11T12:36:00,701][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/tuIeIO1CTP-m9PhnrZWRkg]
-opensearch  | [2025-04-11T12:36:00,708][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/tuIeIO1CTP-m9PhnrZWRkg] update_mapping [_doc]
-opensearch  | [2025-04-11T12:36:00,766][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/tuIeIO1CTP-m9PhnrZWRkg]
-opensearch  | [2025-04-11T12:36:00,770][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/tuIeIO1CTP-m9PhnrZWRkg] update_mapping [_doc]
-opensearch  | [2025-04-11T12:36:01,242][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/tuIeIO1CTP-m9PhnrZWRkg]
-opensearch  | [2025-04-11T12:36:01,250][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/tuIeIO1CTP-m9PhnrZWRkg] update_mapping [_doc]
-opensearch  | [2025-04-11T12:36:02,385][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/tuIeIO1CTP-m9PhnrZWRkg]
-opensearch  | [2025-04-11T12:36:02,389][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/tuIeIO1CTP-m9PhnrZWRkg] update_mapping [_doc]
-opensearch  | [2025-04-11T12:36:02,429][INFO ][o.o.m.a.MLModelAutoReDeployer] [demo-node] Index not found, not performing auto reloading!
-opensearch  | [2025-04-11T12:36:02,429][INFO ][o.o.m.c.MLCommonsClusterManagerEventListener] [demo-node] Starting ML sync up job...
-opensearch  | [2025-04-11T12:36:02,639][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/tuIeIO1CTP-m9PhnrZWRkg]
-opensearch  | [2025-04-11T12:36:02,643][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/tuIeIO1CTP-m9PhnrZWRkg] update_mapping [_doc]
-opensearch  | [2025-04-11T12:36:04,990][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/tuIeIO1CTP-m9PhnrZWRkg]
-opensearch  | [2025-04-11T12:36:04,996][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/tuIeIO1CTP-m9PhnrZWRkg] update_mapping [_doc]
-opensearch  | [2025-04-11T12:36:05,018][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/tuIeIO1CTP-m9PhnrZWRkg]
-opensearch  | [2025-04-11T12:36:05,024][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/tuIeIO1CTP-m9PhnrZWRkg] update_mapping [_doc]
-opensearch  | [2025-04-11T12:36:05,471][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/tuIeIO1CTP-m9PhnrZWRkg]
-opensearch  | [2025-04-11T12:36:05,477][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/tuIeIO1CTP-m9PhnrZWRkg] update_mapping [_doc]
-opensearch  | [2025-04-11T12:36:10,472][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/tuIeIO1CTP-m9PhnrZWRkg]
-opensearch  | [2025-04-11T12:36:10,482][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/tuIeIO1CTP-m9PhnrZWRkg] update_mapping [_doc]
-opensearch  | [2025-04-11T12:36:12,442][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[.plugins-ml-config/gEX3TLGrTaa1-KEHZDi5vw]
-opensearch  | [2025-04-11T12:36:12,447][INFO ][o.o.c.m.MetadataCreateIndexService] [demo-node] [.plugins-ml-config] creating index, cause [api], templates [], shards [1]/[1]
-opensearch  | [2025-04-11T12:36:12,448][INFO ][o.o.c.r.a.AllocationService] [demo-node] updating number_of_replicas to [0] for indices [.plugins-ml-config]
-opensearch  | [2025-04-11T12:36:12,448][WARN ][o.o.c.r.a.AllocationService] [demo-node] Falling back to single shard assignment since batch mode disable or multiple custom allocators set
-opensearch  | [2025-04-11T12:36:12,460][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[.plugins-ml-config/gEX3TLGrTaa1-KEHZDi5vw]
-opensearch  | [2025-04-11T12:36:12,485][INFO ][o.o.m.e.i.MLIndicesHandler] [demo-node] create index:.plugins-ml-config
-opensearch  | [2025-04-11T12:36:12,488][WARN ][o.o.c.r.a.AllocationService] [demo-node] Falling back to single shard assignment since batch mode disable or multiple custom allocators set
-opensearch  | [2025-04-11T12:36:12,497][INFO ][o.o.m.c.MLSyncUpCron     ] [demo-node] ML configuration initialized successfully
-opensearch  | [2025-04-11T12:36:40,133][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/tuIeIO1CTP-m9PhnrZWRkg]
-opensearch  | [2025-04-11T12:36:40,141][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/tuIeIO1CTP-m9PhnrZWRkg] update_mapping [_doc]
-opensearch  | [2025-04-11T12:36:40,383][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/tuIeIO1CTP-m9PhnrZWRkg]
-opensearch  | [2025-04-11T12:36:40,388][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/tuIeIO1CTP-m9PhnrZWRkg] update_mapping [_doc]
-opensearch  | [2025-04-11T12:36:40,436][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/tuIeIO1CTP-m9PhnrZWRkg]
-opensearch  | [2025-04-11T12:36:40,449][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/tuIeIO1CTP-m9PhnrZWRkg] update_mapping [_doc]
-opensearch  | [2025-04-11T12:36:52,429][INFO ][o.o.i.i.ManagedIndexCoordinator] [demo-node] Performing ISM template migration.
-opensearch  | [2025-04-11T12:36:52,430][INFO ][o.o.i.i.m.ISMTemplateService] [demo-node] Doing ISM template migration 1 time.
-opensearch  | [2025-04-11T12:36:52,431][INFO ][o.o.i.i.m.ISMTemplateService] [demo-node] Use 2025-04-11T11:35:52.421Z as migrating ISM template last_updated_time
-opensearch  | [2025-04-11T12:36:52,431][INFO ][o.o.i.i.m.ISMTemplateService] [demo-node] ISM templates: {}
-opensearch  | [2025-04-11T12:36:52,431][INFO ][o.o.i.i.m.ISMTemplateService] [demo-node] Policies to update: []
-opensearch  | [2025-04-11T12:36:52,434][INFO ][o.o.i.i.ManagedIndexCoordinator] [demo-node] Performing move cluster state metadata.
-opensearch  | [2025-04-11T12:36:52,435][INFO ][o.o.i.i.m.ISMTemplateService] [demo-node] Failure experienced when migrating ISM Template and update ISM policies: {}
-opensearch  | [2025-04-11T12:36:52,435][INFO ][o.o.i.i.MetadataService  ] [demo-node] ISM config index not exist, so we cancel the metadata migration job.
-opensearch  | [2025-04-11T12:36:52,450][INFO ][o.o.c.s.ClusterSettings  ] [demo-node] updating [plugins.index_state_management.template_migration.control] from [0] to [-1]
-opensearch  | [2025-04-11T12:36:52,451][WARN ][o.o.c.r.a.AllocationService] [demo-node] Falling back to single shard assignment since batch mode disable or multiple custom allocators set
-opensearch  | [2025-04-11T12:36:52,452][INFO ][o.o.i.i.m.ISMTemplateService] [demo-node] Successfully update template migration setting
-opensearch  | [2025-04-11T12:37:52,438][INFO ][o.o.i.i.ManagedIndexCoordinator] [demo-node] Cancel background move metadata process.
-opensearch  | [2025-04-11T12:37:52,444][INFO ][o.o.i.i.ManagedIndexCoordinator] [demo-node] Performing move cluster state metadata.
-opensearch  | [2025-04-11T12:37:52,444][INFO ][o.o.i.i.MetadataService  ] [demo-node] Move metadata has finished.
+opensearch  | [2025-04-21T10:29:06,199][INFO ][o.o.n.Node               ] [demo-node] version[2.19.0], pid[1], build[tar/fd9a9d90df25bea1af2c6a85039692e815b894f5/2025-02-05T16:13:57.130576800Z], OS[Linux/6.12.5-linuxkit/aarch64], JVM[Eclipse Adoptium/OpenJDK 64-Bit Server VM/21.0.6/21.0.6+7-LTS]
+opensearch  | [2025-04-21T10:29:06,200][INFO ][o.o.n.Node               ] [demo-node] JVM home [/usr/share/opensearch/jdk], using bundled JDK/JRE [true]
+opensearch  | [2025-04-21T10:29:06,200][INFO ][o.o.n.Node               ] [demo-node] JVM arguments [-Xshare:auto, -Dopensearch.networkaddress.cache.ttl=60, -Dopensearch.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -XX:+ShowCodeDetailsInExceptionMessages, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dio.netty.allocator.numDirectArenas=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.security.manager=allow, -Djava.locale.providers=SPI,COMPAT, -Xms1g, -Xmx1g, -XX:+UseG1GC, -XX:G1ReservePercent=25, -XX:InitiatingHeapOccupancyPercent=30, -Djava.io.tmpdir=/tmp/opensearch-3306374508585507718, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -Djava.security.manager=allow, --add-modules=jdk.incubator.vector, -Djava.util.concurrent.ForkJoinPool.common.threadFactory=org.opensearch.secure_sm.SecuredForkJoinWorkerThreadFactory, -Dclk.tck=100, -Djdk.attach.allowAttachSelf=true, -Djava.security.policy=/usr/share/opensearch/config/opensearch-performance-analyzer/opensearch_security.policy, --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED, -Dopensearch.cgroups.hierarchy.override=/, -Xms300m, -Xmx300m, -XX:MaxDirectMemorySize=157286400, -Dopensearch.path.home=/usr/share/opensearch, -Dopensearch.path.conf=/usr/share/opensearch/config, -Dopensearch.distribution.type=tar, -Dopensearch.bundled_jdk=true]
+opensearch  | [2025-04-21T10:29:06,348][INFO ][o.a.l.i.v.PanamaVectorizationProvider] [demo-node] Java vector incubator API enabled; uses preferredBitSize=128; FMA enabled
+opensearch  | [2025-04-21T10:29:06,986][INFO ][o.o.s.s.t.SSLConfig      ] [demo-node] SSL dual mode is disabled
+opensearch  | [2025-04-21T10:29:06,987][WARN ][o.o.s.OpenSearchSecurityPlugin] [demo-node] OpenSearch Security plugin installed but disabled. This can expose your configuration (including passwords) to the public.
+opensearch  | [2025-04-21T10:29:07,734][INFO ][o.o.p.c.c.PluginSettings ] [demo-node] Config: metricsLocation: /dev/shm/performanceanalyzer/, metricsDeletionInterval: 1, httpsEnabled: false, cleanup-metrics-db-files: true, batch-metrics-retention-period-minutes: 7, rpc-port: 9650, webservice-port 9600
+opensearch  | [2025-04-21T10:29:08,063][INFO ][o.o.i.r.ReindexPlugin    ] [demo-node] ReindexPlugin reloadSPI called
+opensearch  | [2025-04-21T10:29:08,063][INFO ][o.o.i.r.ReindexPlugin    ] [demo-node] Unable to find any implementation for RemoteReindexExtension
+opensearch  | [2025-04-21T10:29:08,090][INFO ][o.o.j.JobSchedulerPlugin ] [demo-node] Loaded scheduler extension: reports-scheduler, index: .opendistro-reports-definitions
+opensearch  | [2025-04-21T10:29:08,091][INFO ][o.o.j.JobSchedulerPlugin ] [demo-node] Loaded scheduler extension: opensearch_time_series_analytics, index: .opendistro-anomaly-detector-jobs
+opensearch  | [2025-04-21T10:29:08,091][INFO ][o.o.j.JobSchedulerPlugin ] [demo-node] Loaded scheduler extension: opendistro-index-management, index: .opendistro-ism-config
+opensearch  | [2025-04-21T10:29:08,093][INFO ][o.o.j.JobSchedulerPlugin ] [demo-node] Loaded scheduler extension: checkBatchJobTaskStatus, index: .ml_commons_task_polling_job
+opensearch  | [2025-04-21T10:29:08,093][INFO ][o.o.j.JobSchedulerPlugin ] [demo-node] Loaded scheduler extension: scheduler_geospatial_ip2geo_datasource, index: .scheduler-geospatial-ip2geo-datasource
+opensearch  | [2025-04-21T10:29:08,094][INFO ][o.o.j.JobSchedulerPlugin ] [demo-node] Loaded scheduler extension: opensearch_sap_job, index: .opensearch-sap--job
+opensearch  | [2025-04-21T10:29:08,095][INFO ][o.o.j.JobSchedulerPlugin ] [demo-node] Loaded scheduler extension: async-query-scheduler, index: .async-query-scheduler
+opensearch  | [2025-04-21T10:29:08,106][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [aggs-matrix-stats]
+opensearch  | [2025-04-21T10:29:08,106][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [analysis-common]
+opensearch  | [2025-04-21T10:29:08,106][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [cache-common]
+opensearch  | [2025-04-21T10:29:08,106][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [geo]
+opensearch  | [2025-04-21T10:29:08,106][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [ingest-common]
+opensearch  | [2025-04-21T10:29:08,106][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [ingest-geoip]
+opensearch  | [2025-04-21T10:29:08,106][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [ingest-user-agent]
+opensearch  | [2025-04-21T10:29:08,106][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [lang-expression]
+opensearch  | [2025-04-21T10:29:08,106][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [lang-mustache]
+opensearch  | [2025-04-21T10:29:08,106][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [lang-painless]
+opensearch  | [2025-04-21T10:29:08,106][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [mapper-extras]
+opensearch  | [2025-04-21T10:29:08,106][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [opensearch-dashboards]
+opensearch  | [2025-04-21T10:29:08,106][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [parent-join]
+opensearch  | [2025-04-21T10:29:08,106][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [percolator]
+opensearch  | [2025-04-21T10:29:08,106][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [rank-eval]
+opensearch  | [2025-04-21T10:29:08,106][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [reindex]
+opensearch  | [2025-04-21T10:29:08,106][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [repository-url]
+opensearch  | [2025-04-21T10:29:08,106][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [search-pipeline-common]
+opensearch  | [2025-04-21T10:29:08,106][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [systemd]
+opensearch  | [2025-04-21T10:29:08,106][INFO ][o.o.p.PluginsService     ] [demo-node] loaded module [transport-netty4]
+opensearch  | [2025-04-21T10:29:08,107][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-alerting]
+opensearch  | [2025-04-21T10:29:08,107][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-anomaly-detection]
+opensearch  | [2025-04-21T10:29:08,107][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-asynchronous-search]
+opensearch  | [2025-04-21T10:29:08,107][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-cross-cluster-replication]
+opensearch  | [2025-04-21T10:29:08,107][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-custom-codecs]
+opensearch  | [2025-04-21T10:29:08,107][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-flow-framework]
+opensearch  | [2025-04-21T10:29:08,107][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-geospatial]
+opensearch  | [2025-04-21T10:29:08,107][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-index-management]
+opensearch  | [2025-04-21T10:29:08,107][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-job-scheduler]
+opensearch  | [2025-04-21T10:29:08,107][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-knn]
+opensearch  | [2025-04-21T10:29:08,107][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-ltr]
+opensearch  | [2025-04-21T10:29:08,107][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-ml]
+opensearch  | [2025-04-21T10:29:08,107][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-neural-search]
+opensearch  | [2025-04-21T10:29:08,107][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-notifications]
+opensearch  | [2025-04-21T10:29:08,107][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-notifications-core]
+opensearch  | [2025-04-21T10:29:08,107][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-observability]
+opensearch  | [2025-04-21T10:29:08,107][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-performance-analyzer]
+opensearch  | [2025-04-21T10:29:08,107][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-reports-scheduler]
+opensearch  | [2025-04-21T10:29:08,107][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-security]
+opensearch  | [2025-04-21T10:29:08,107][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-security-analytics]
+opensearch  | [2025-04-21T10:29:08,107][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-skills]
+opensearch  | [2025-04-21T10:29:08,107][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-sql]
+opensearch  | [2025-04-21T10:29:08,107][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [opensearch-system-templates]
+opensearch  | [2025-04-21T10:29:08,107][INFO ][o.o.p.PluginsService     ] [demo-node] loaded plugin [query-insights]
+opensearch  | [2025-04-21T10:29:08,156][WARN ][stderr                   ] [demo-node] WARNING: A restricted method in java.lang.foreign.Linker has been called
+opensearch  | [2025-04-21T10:29:08,156][WARN ][stderr                   ] [demo-node] WARNING: java.lang.foreign.Linker::downcallHandle has been called by the unnamed module
+opensearch  | [2025-04-21T10:29:08,156][WARN ][stderr                   ] [demo-node] WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for this module
+opensearch  | [2025-04-21T10:29:08,180][INFO ][o.a.l.s.MemorySegmentIndexInputProvider] [demo-node] Using MemorySegmentIndexInput and native madvise support with Java 21 or later; to disable start with -Dorg.apache.lucene.store.MMapDirectory.enableMemorySegments=false
+opensearch  | [2025-04-21T10:29:08,184][INFO ][o.o.e.NodeEnvironment    ] [demo-node] using [1] data paths, mounts [[/ (overlay)]], net usable_space [10.4gb], net total_space [58.3gb], types [overlay]
+opensearch  | [2025-04-21T10:29:08,184][INFO ][o.o.e.NodeEnvironment    ] [demo-node] heap size [300mb], compressed ordinary object pointers [true]
+opensearch  | [2025-04-21T10:29:08,198][INFO ][o.o.n.Node               ] [demo-node] node name [demo-node], node ID [Jkq351RJS7C2CPgvAVOpTw], cluster name [demo-cluster], roles [ingest, remote_cluster_client, data, cluster_manager]
+opensearch  | [2025-04-21T10:29:08,222][INFO ][o.o.e.ExtensionsManager  ] [demo-node] ExtensionsManager initialized
+opensearch  | [2025-04-21T10:29:08,970][DEPRECATION][o.o.d.c.s.Settings       ] [demo-node] [index.store.hybrid.mmap.extensions] setting was deprecated in OpenSearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+opensearch  | [2025-04-21T10:29:09,303][INFO ][o.o.n.p.NeuralSearch     ] [demo-node] Registering hybrid query phase searcher with feature flag [plugins.neural_search.hybrid_search_disabled]
+opensearch  | [2025-04-21T10:29:09,505][INFO ][o.o.l.b.LTRCircuitBreakerService] [demo-node] Registered memory breaker.
+opensearch  | [2025-04-21T10:29:09,521][INFO ][o.o.r.m.c.i.SdkClientFactory] [demo-node] Using local opensearch cluster as metadata store.
+opensearch  | [2025-04-21T10:29:09,588][INFO ][o.o.t.b.CircuitBreakerService] [demo-node] Registered memory breaker.
+opensearch  | [2025-04-21T10:29:09,759][INFO ][o.o.r.m.c.i.SdkClientFactory] [demo-node] Using local opensearch cluster as metadata store.
+opensearch  | [2025-04-21T10:29:09,766][INFO ][o.o.m.b.MLCircuitBreakerService] [demo-node] Registered ML memory breaker.
+opensearch  | [2025-04-21T10:29:09,767][INFO ][o.o.m.b.MLCircuitBreakerService] [demo-node] Registered ML disk breaker.
+opensearch  | [2025-04-21T10:29:09,767][INFO ][o.o.m.b.MLCircuitBreakerService] [demo-node] Registered ML native memory breaker.
+opensearch  | [2025-04-21T10:29:09,810][INFO ][o.r.Reflections          ] [demo-node] Reflections took 24 ms to scan 1 urls, producing 27 keys and 67 values 
+opensearch  | [2025-04-21T10:29:09,822][INFO ][o.r.Reflections          ] [demo-node] Reflections took 1 ms to scan 1 urls, producing 3 keys and 5 values 
+opensearch  | [2025-04-21T10:29:09,910][WARN ][o.o.s.p.SQLPlugin        ] [demo-node] Master key is a required config for using create and update datasource APIs. Please set plugins.query.datasources.encryption.masterkey config in opensearch.yml in all the cluster nodes. More details can be found here: https://github.com/opensearch-project/sql/blob/main/docs/user/ppl/admin/datasources.rst#master-key-config-for-encrypting-credential-information
+opensearch  | [2025-04-21T10:29:10,247][INFO ][o.o.t.NettyAllocator     ] [demo-node] creating NettyAllocator with the following configs: [name=unpooled, suggested_max_allocation_size=256kb, factors={opensearch.unsafe.use_unpooled_allocator=null, g1gc_enabled=true, g1gc_region_size=1mb, heap_size=300mb}]
+opensearch  | [2025-04-21T10:29:10,291][INFO ][o.o.d.DiscoveryModule    ] [demo-node] using discovery type [single-node] and seed hosts providers [settings]
+opensearch  | [2025-04-21T10:29:10,528][WARN ][o.o.g.DanglingIndicesState] [demo-node] gateway.auto_import_dangling_indices is disabled, dangling indices will not be automatically detected or imported and must be managed manually
+opensearch  | [2025-04-21T10:29:10,808][INFO ][o.o.p.h.c.PerformanceAnalyzerConfigAction] [demo-node] PerformanceAnalyzer Enabled: false
+opensearch  | [2025-04-21T10:29:10,834][INFO ][o.o.n.Node               ] [demo-node] initialized
+opensearch  | [2025-04-21T10:29:10,834][INFO ][o.o.n.Node               ] [demo-node] starting ...
+opensearch  | [2025-04-21T10:29:10,847][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [windows_logtype.json] log type
+opensearch  | [2025-04-21T10:29:10,847][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [waf_logtype.json] log type
+opensearch  | [2025-04-21T10:29:10,848][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [vpcflow_logtype.json] log type
+opensearch  | [2025-04-21T10:29:10,848][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [test_windows_logtype.json] log type
+opensearch  | [2025-04-21T10:29:10,848][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [s3_logtype.json] log type
+opensearch  | [2025-04-21T10:29:10,848][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [others_web_logtype.json] log type
+opensearch  | [2025-04-21T10:29:10,848][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [others_proxy_logtype.json] log type
+opensearch  | [2025-04-21T10:29:10,848][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [others_macos_logtype.json] log type
+opensearch  | [2025-04-21T10:29:10,849][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [others_compliance_logtype.json] log type
+opensearch  | [2025-04-21T10:29:10,849][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [others_cloud_logtype.json] log type
+opensearch  | [2025-04-21T10:29:10,849][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [others_apt_logtype.json] log type
+opensearch  | [2025-04-21T10:29:10,849][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [others_application_logtype.json] log type
+opensearch  | [2025-04-21T10:29:10,849][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [okta_logtype.json] log type
+opensearch  | [2025-04-21T10:29:10,849][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [network_logtype.json] log type
+opensearch  | [2025-04-21T10:29:10,849][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [netflow_logtype.json] log type
+opensearch  | [2025-04-21T10:29:10,850][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [m365_logtype.json] log type
+opensearch  | [2025-04-21T10:29:10,850][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [linux_logtype.json] log type
+opensearch  | [2025-04-21T10:29:10,850][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [gworkspace_logtype.json] log type
+opensearch  | [2025-04-21T10:29:10,850][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [github_logtype.json] log type
+opensearch  | [2025-04-21T10:29:10,850][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [dns_logtype.json] log type
+opensearch  | [2025-04-21T10:29:10,850][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [cloudtrail_logtype.json] log type
+opensearch  | [2025-04-21T10:29:10,851][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [azure_logtype.json] log type
+opensearch  | [2025-04-21T10:29:10,851][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [apache_access_logtype.json] log type
+opensearch  | [2025-04-21T10:29:10,851][INFO ][o.o.s.l.BuiltinLogTypeLoader] [demo-node] Loaded [ad_ldap_logtype.json] log type
+opensearch  | [2025-04-21T10:29:10,906][INFO ][o.o.t.TransportService   ] [demo-node] publish_address {172.18.0.6:9300}, bound_addresses {[::]:9300}
+opensearch  | [2025-04-21T10:29:10,906][INFO ][o.o.t.TransportService   ] [demo-node] Remote clusters initialized successfully.
+opensearch  | [2025-04-21T10:29:10,981][INFO ][o.o.c.c.Coordinator      ] [demo-node] setting initial configuration to VotingConfiguration{Jkq351RJS7C2CPgvAVOpTw}
+opensearch  | [2025-04-21T10:29:11,101][INFO ][o.o.c.s.MasterService    ] [demo-node] Tasks batched with key: org.opensearch.cluster.coordination.JoinHelper, count:3 and sample tasks: elected-as-cluster-manager ([1] nodes joined)[{demo-node}{Jkq351RJS7C2CPgvAVOpTw}{BqLd-isoR4uuPIREVYUXgg}{172.18.0.6}{172.18.0.6:9300}{dimr}{shard_indexing_pressure_enabled=true} elect leader, _BECOME_CLUSTER_MANAGER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: cluster-manager node changed {previous [], current [{demo-node}{Jkq351RJS7C2CPgvAVOpTw}{BqLd-isoR4uuPIREVYUXgg}{172.18.0.6}{172.18.0.6:9300}{dimr}{shard_indexing_pressure_enabled=true}]}
+opensearch  | [2025-04-21T10:29:11,116][INFO ][o.o.c.c.CoordinationState] [demo-node] cluster UUID set to [nfzR1cEqTlKVYV8MzVan9w]
+opensearch  | [2025-04-21T10:29:11,127][INFO ][o.o.c.s.ClusterApplierService] [demo-node] cluster-manager node changed {previous [], current [{demo-node}{Jkq351RJS7C2CPgvAVOpTw}{BqLd-isoR4uuPIREVYUXgg}{172.18.0.6}{172.18.0.6:9300}{dimr}{shard_indexing_pressure_enabled=true}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+opensearch  | [2025-04-21T10:29:11,130][INFO ][o.o.t.i.IndexManagement  ] [demo-node] Candidate custom result indices are empty.
+opensearch  | [2025-04-21T10:29:11,130][INFO ][o.o.t.i.IndexManagement  ] [demo-node] Candidate custom result indices are empty.
+opensearch  | [2025-04-21T10:29:11,130][INFO ][o.o.t.c.ClusterEventListener] [demo-node] Cluster is not recovered yet.
+opensearch  | [2025-04-21T10:29:11,144][INFO ][o.o.i.i.ManagedIndexCoordinator] [demo-node] Cache cluster manager node onClusterManager time: 1745231351144
+opensearch  | [2025-04-21T10:29:11,149][WARN ][o.o.p.c.s.h.ConfigOverridesClusterSettingHandler] [demo-node] Config override setting update called with empty string. Ignoring.
+opensearch  | [2025-04-21T10:29:11,151][INFO ][o.o.d.PeerFinder         ] [demo-node] setting findPeersInterval to [1s] as node commission status = [true] for local node [{demo-node}{Jkq351RJS7C2CPgvAVOpTw}{BqLd-isoR4uuPIREVYUXgg}{172.18.0.6}{172.18.0.6:9300}{dimr}{shard_indexing_pressure_enabled=true}]
+opensearch  | [2025-04-21T10:29:11,153][WARN ][o.o.c.r.a.AllocationService] [demo-node] Falling back to single shard assignment since batch mode disable or multiple custom allocators set
+opensearch  | [2025-04-21T10:29:11,156][WARN ][o.o.c.r.a.AllocationService] [demo-node] Falling back to single shard assignment since batch mode disable or multiple custom allocators set
+opensearch  | [2025-04-21T10:29:11,157][INFO ][o.o.h.AbstractHttpServerTransport] [demo-node] publish_address {172.18.0.6:9200}, bound_addresses {[::]:9200}
+opensearch  | [2025-04-21T10:29:11,157][INFO ][o.o.n.Node               ] [demo-node] started
+opensearch  | [2025-04-21T10:29:11,157][INFO ][o.o.s.OpenSearchSecurityPlugin] [demo-node] 0 OpenSearch Security modules loaded so far: []
+opensearch  | [2025-04-21T10:29:11,162][INFO ][o.o.t.c.HashRing         ] [demo-node] Node added: [Jkq351RJS7C2CPgvAVOpTw]
+opensearch  | [2025-04-21T10:29:11,165][INFO ][o.o.t.c.HashRing         ] [demo-node] Add data node to version hash ring: Jkq351RJS7C2CPgvAVOpTw
+opensearch  | [2025-04-21T10:29:11,165][INFO ][o.o.t.c.HashRing         ] [demo-node] All nodes with known version: {Jkq351RJS7C2CPgvAVOpTw=ADNodeInfo{version=2.19.0, isEligibleDataNode=true}}
+opensearch  | [2025-04-21T10:29:11,165][INFO ][o.o.t.c.HashRing         ] [demo-node] Rebuild hash ring for realtime with cooldown, nodeChangeEvents size 0
+opensearch  | [2025-04-21T10:29:11,166][INFO ][o.o.t.c.HashRing         ] [demo-node] Build version hash ring successfully
+opensearch  | [2025-04-21T10:29:11,166][INFO ][o.o.t.c.ADDataMigrator   ] [demo-node] Start migrating AD data
+opensearch  | [2025-04-21T10:29:11,166][INFO ][o.o.t.c.ADDataMigrator   ] [demo-node] AD job index doesn't exist, no need to migrate
+opensearch  | [2025-04-21T10:29:11,166][INFO ][o.o.t.c.ClusterEventListener] [demo-node] Init version hash ring successfully
+opensearch  | [2025-04-21T10:29:11,172][INFO ][o.o.g.GatewayService     ] [demo-node] recovered [0] indices into cluster_state
+opensearch  | [2025-04-21T10:29:11,183][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[.opensearch-observability/_WUNU7t0S4qt-NrjGQhNmg]
+opensearch  | [2025-04-21T10:29:11,238][INFO ][o.o.c.m.MetadataCreateIndexService] [demo-node] [.opensearch-observability] creating index, cause [api], templates [], shards [1]/[0]
+opensearch  | [2025-04-21T10:29:11,241][WARN ][o.o.c.r.a.AllocationService] [demo-node] Falling back to single shard assignment since batch mode disable or multiple custom allocators set
+opensearch  | [2025-04-21T10:29:11,259][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[.opensearch-observability/_WUNU7t0S4qt-NrjGQhNmg]
+opensearch  | [2025-04-21T10:29:11,281][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[.opensearch-sap-log-types-config/XYLrDrCAR_GLQo3W6dQrPg]
+opensearch  | [2025-04-21T10:29:11,287][INFO ][o.o.c.m.MetadataCreateIndexService] [demo-node] [.opensearch-sap-log-types-config] creating index, cause [auto(sap-logtype api)], templates [], shards [1]/[1]
+opensearch  | [2025-04-21T10:29:11,288][INFO ][o.o.c.r.a.AllocationService] [demo-node] updating number_of_replicas to [0] for indices [.opensearch-sap-log-types-config]
+opensearch  | [2025-04-21T10:29:11,288][WARN ][o.o.c.r.a.AllocationService] [demo-node] Falling back to single shard assignment since batch mode disable or multiple custom allocators set
+opensearch  | [2025-04-21T10:29:11,298][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[.opensearch-sap-log-types-config/XYLrDrCAR_GLQo3W6dQrPg]
+opensearch  | [2025-04-21T10:29:11,345][INFO ][o.o.s.l.LogTypeService   ] [demo-node] Loading builtin types!
+opensearch  | [2025-04-21T10:29:11,346][INFO ][o.o.s.l.LogTypeService   ] [demo-node] Indexing [432] fieldMappingDocs from logTypes: 24
+opensearch  | [2025-04-21T10:29:11,363][INFO ][o.o.c.r.a.AllocationService] [demo-node] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[.opensearch-observability][0]]]).
+opensearch  | [2025-04-21T10:29:11,373][INFO ][o.o.o.i.ObservabilityIndex] [demo-node] observability:Index .opensearch-observability creation Acknowledged
+opensearch  | [2025-04-21T10:29:11,374][WARN ][o.o.c.r.a.AllocationService] [demo-node] Falling back to single shard assignment since batch mode disable or multiple custom allocators set
+opensearch  | [2025-04-21T10:29:11,384][INFO ][o.o.s.l.LogTypeService   ] [demo-node] Indexing [432] fieldMappingDocs
+opensearch  | [2025-04-21T10:29:11,403][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[.opensearch-sap-log-types-config/XYLrDrCAR_GLQo3W6dQrPg]
+opensearch  | [2025-04-21T10:29:11,407][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [.opensearch-sap-log-types-config/XYLrDrCAR_GLQo3W6dQrPg] update_mapping [_doc]
+opensearch  | [2025-04-21T10:29:11,428][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[.opensearch-sap-log-types-config/XYLrDrCAR_GLQo3W6dQrPg]
+opensearch  | [2025-04-21T10:29:11,431][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [.opensearch-sap-log-types-config/XYLrDrCAR_GLQo3W6dQrPg] update_mapping [_doc]
+opensearch  | [2025-04-21T10:29:11,555][INFO ][o.o.s.l.LogTypeService   ] [demo-node] Loaded [432] field mapping docs successfully!
+opensearch  | [2025-04-21T10:29:11,562][INFO ][o.o.s.l.LogTypeService   ] [demo-node] Indexing [23] customLogTypes
+opensearch  | [2025-04-21T10:29:11,576][INFO ][o.o.s.l.LogTypeService   ] [demo-node] Loaded [23] customLogType docs successfully!
+opensearch  | [2025-04-21T10:29:11,576][INFO ][o.o.s.SecurityAnalyticsPlugin] [demo-node] LogType config index successfully created and builtin log types loaded
+opensearch  | [2025-04-21T10:29:12,161][INFO ][o.o.s.i.DetectorIndexManagementService] [demo-node] info deleteOldIndices
+opensearch  | [2025-04-21T10:29:12,164][INFO ][o.o.s.i.DetectorIndexManagementService] [demo-node] No Old Correlation Indices to delete
+opensearch  | [2025-04-21T10:29:12,164][INFO ][o.o.s.l.LogTypeService   ] [demo-node] Indexing [23] customLogTypes
+opensearch  | [2025-04-21T10:29:12,165][INFO ][o.o.s.i.DetectorIndexManagementService] [demo-node] info deleteOldIndices
+opensearch  | [2025-04-21T10:29:12,165][INFO ][o.o.s.i.DetectorIndexManagementService] [demo-node] No Old IOC Findings Indices to delete
+opensearch  | [2025-04-21T10:29:12,175][INFO ][o.o.s.l.LogTypeService   ] [demo-node] Indexing [23] customLogTypes
+opensearch  | [2025-04-21T10:29:12,205][INFO ][o.o.s.l.LogTypeService   ] [demo-node] Loaded [23] customLogType docs successfully!
+opensearch  | [2025-04-21T10:29:12,212][INFO ][o.o.s.l.LogTypeService   ] [demo-node] Loaded [23] customLogType docs successfully!
+opensearch  | [2025-04-21T10:29:12,241][INFO ][o.o.s.i.DetectorIndexManagementService] [demo-node] info deleteOldIndices
+opensearch  | [2025-04-21T10:29:12,241][INFO ][o.o.s.i.DetectorIndexManagementService] [demo-node] info deleteOldIndices
+opensearch  | [2025-04-21T10:29:12,241][INFO ][o.o.s.i.DetectorIndexManagementService] [demo-node] No Old Finding Indices to delete
+opensearch  | [2025-04-21T10:29:12,241][INFO ][o.o.s.i.DetectorIndexManagementService] [demo-node] No Old Alert Indices to delete
+opensearch  | [2025-04-21T10:29:18,375][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/SHeE6AYiSvSNXk6x2Ug23w]
+opensearch  | [2025-04-21T10:29:18,377][INFO ][o.o.c.m.MetadataCreateIndexService] [demo-node] [otel] creating index, cause [auto(bulk api)], templates [], shards [1]/[1]
+opensearch  | [2025-04-21T10:29:18,378][WARN ][o.o.c.r.a.AllocationService] [demo-node] Falling back to single shard assignment since batch mode disable or multiple custom allocators set
+opensearch  | [2025-04-21T10:29:18,395][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/SHeE6AYiSvSNXk6x2Ug23w]
+opensearch  | [2025-04-21T10:29:18,426][WARN ][o.o.c.r.a.AllocationService] [demo-node] Falling back to single shard assignment since batch mode disable or multiple custom allocators set
+opensearch  | [2025-04-21T10:29:18,442][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/SHeE6AYiSvSNXk6x2Ug23w]
+opensearch  | [2025-04-21T10:29:18,447][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/SHeE6AYiSvSNXk6x2Ug23w] create_mapping
+opensearch  | [2025-04-21T10:29:20,291][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/SHeE6AYiSvSNXk6x2Ug23w]
+opensearch  | [2025-04-21T10:29:20,305][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/SHeE6AYiSvSNXk6x2Ug23w] update_mapping [_doc]
+opensearch  | [2025-04-21T10:29:20,364][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/SHeE6AYiSvSNXk6x2Ug23w]
+opensearch  | [2025-04-21T10:29:20,369][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/SHeE6AYiSvSNXk6x2Ug23w] update_mapping [_doc]
+opensearch  | [2025-04-21T10:29:20,432][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/SHeE6AYiSvSNXk6x2Ug23w]
+opensearch  | [2025-04-21T10:29:20,445][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/SHeE6AYiSvSNXk6x2Ug23w] update_mapping [_doc]
+opensearch  | [2025-04-21T10:29:20,502][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/SHeE6AYiSvSNXk6x2Ug23w]
+opensearch  | [2025-04-21T10:29:20,511][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/SHeE6AYiSvSNXk6x2Ug23w] update_mapping [_doc]
+opensearch  | [2025-04-21T10:29:20,792][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/SHeE6AYiSvSNXk6x2Ug23w]
+opensearch  | [2025-04-21T10:29:20,802][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/SHeE6AYiSvSNXk6x2Ug23w] update_mapping [_doc]
+opensearch  | [2025-04-21T10:29:20,869][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/SHeE6AYiSvSNXk6x2Ug23w]
+opensearch  | [2025-04-21T10:29:20,890][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/SHeE6AYiSvSNXk6x2Ug23w] update_mapping [_doc]
+opensearch  | [2025-04-21T10:29:21,155][INFO ][o.o.m.a.MLModelAutoReDeployer] [demo-node] Index not found, not performing auto reloading!
+opensearch  | [2025-04-21T10:29:21,156][INFO ][o.o.m.c.MLCommonsClusterManagerEventListener] [demo-node] Starting ML sync up job...
+opensearch  | [2025-04-21T10:29:22,711][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/SHeE6AYiSvSNXk6x2Ug23w]
+opensearch  | [2025-04-21T10:29:22,724][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/SHeE6AYiSvSNXk6x2Ug23w] update_mapping [_doc]
+opensearch  | [2025-04-21T10:29:24,691][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/SHeE6AYiSvSNXk6x2Ug23w]
+opensearch  | [2025-04-21T10:29:24,697][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/SHeE6AYiSvSNXk6x2Ug23w] update_mapping [_doc]
+opensearch  | [2025-04-21T10:29:24,722][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/SHeE6AYiSvSNXk6x2Ug23w]
+opensearch  | [2025-04-21T10:29:24,727][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/SHeE6AYiSvSNXk6x2Ug23w] update_mapping [_doc]
+opensearch  | [2025-04-21T10:29:25,164][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/SHeE6AYiSvSNXk6x2Ug23w]
+opensearch  | [2025-04-21T10:29:25,170][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/SHeE6AYiSvSNXk6x2Ug23w] update_mapping [_doc]
+opensearch  | [2025-04-21T10:29:30,016][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/SHeE6AYiSvSNXk6x2Ug23w]
+opensearch  | [2025-04-21T10:29:30,025][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/SHeE6AYiSvSNXk6x2Ug23w] update_mapping [_doc]
+opensearch  | [2025-04-21T10:29:31,117][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/SHeE6AYiSvSNXk6x2Ug23w]
+opensearch  | [2025-04-21T10:29:31,122][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/SHeE6AYiSvSNXk6x2Ug23w] update_mapping [_doc]
+opensearch  | [2025-04-21T10:29:31,196][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[.plugins-ml-config/aJcWn_qmTSmsjHVoMtSvvg]
+opensearch  | [2025-04-21T10:29:31,203][INFO ][o.o.c.m.MetadataCreateIndexService] [demo-node] [.plugins-ml-config] creating index, cause [api], templates [], shards [1]/[1]
+opensearch  | [2025-04-21T10:29:31,203][INFO ][o.o.c.r.a.AllocationService] [demo-node] updating number_of_replicas to [0] for indices [.plugins-ml-config]
+opensearch  | [2025-04-21T10:29:31,204][WARN ][o.o.c.r.a.AllocationService] [demo-node] Falling back to single shard assignment since batch mode disable or multiple custom allocators set
+opensearch  | [2025-04-21T10:29:31,225][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[.plugins-ml-config/aJcWn_qmTSmsjHVoMtSvvg]
+opensearch  | [2025-04-21T10:29:31,276][INFO ][o.o.m.e.i.MLIndicesHandler] [demo-node] create index:.plugins-ml-config
+opensearch  | [2025-04-21T10:29:31,280][WARN ][o.o.c.r.a.AllocationService] [demo-node] Falling back to single shard assignment since batch mode disable or multiple custom allocators set
+opensearch  | [2025-04-21T10:29:31,289][INFO ][o.o.m.c.MLSyncUpCron     ] [demo-node] ML configuration initialized successfully
+opensearch  | [2025-04-21T10:29:34,726][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[otel/SHeE6AYiSvSNXk6x2Ug23w]
+opensearch  | [2025-04-21T10:29:34,733][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [otel/SHeE6AYiSvSNXk6x2Ug23w] update_mapping [_doc]
+opensearch  | [2025-04-21T10:30:00,057][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[top_queries-2025.04.21-51484/8jeeoxsbQr6Q0972aqBhQg]
+opensearch  | [2025-04-21T10:30:00,081][INFO ][o.o.c.m.MetadataCreateIndexService] [demo-node] [top_queries-2025.04.21-51484] creating index, cause [api], templates [], shards [1]/[1]
+opensearch  | [2025-04-21T10:30:00,082][WARN ][o.o.c.r.a.AllocationService] [demo-node] Falling back to single shard assignment since batch mode disable or multiple custom allocators set
+opensearch  | [2025-04-21T10:30:00,108][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[top_queries-2025.04.21-51484/8jeeoxsbQr6Q0972aqBhQg]
+opensearch  | [2025-04-21T10:30:00,157][WARN ][o.o.c.r.a.AllocationService] [demo-node] Falling back to single shard assignment since batch mode disable or multiple custom allocators set
+opensearch  | [2025-04-21T10:30:00,165][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[top_queries-2025.04.21-51484/8jeeoxsbQr6Q0972aqBhQg]
+opensearch  | [2025-04-21T10:30:00,167][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [top_queries-2025.04.21-51484/8jeeoxsbQr6Q0972aqBhQg] update_mapping [_doc]
+opensearch  | [2025-04-21T10:30:00,179][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[top_queries-2025.04.21-51484/8jeeoxsbQr6Q0972aqBhQg]
+opensearch  | [2025-04-21T10:30:00,191][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[top_queries-2025.04.21-51484/8jeeoxsbQr6Q0972aqBhQg]
+opensearch  | [2025-04-21T10:30:00,194][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [top_queries-2025.04.21-51484/8jeeoxsbQr6Q0972aqBhQg] update_mapping [_doc]
+opensearch  | [2025-04-21T10:30:00,209][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[top_queries-2025.04.21-51484/8jeeoxsbQr6Q0972aqBhQg]
+opensearch  | [2025-04-21T10:30:00,216][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[top_queries-2025.04.21-51484/8jeeoxsbQr6Q0972aqBhQg]
+opensearch  | [2025-04-21T10:30:00,221][INFO ][o.o.c.m.MetadataMappingService] [demo-node] [top_queries-2025.04.21-51484/8jeeoxsbQr6Q0972aqBhQg] update_mapping [_doc]
+opensearch  | [2025-04-21T10:30:00,235][INFO ][o.o.p.PluginsService     ] [demo-node] PluginService:onIndexModule index:[top_queries-2025.04.21-51484/8jeeoxsbQr6Q0972aqBhQg]
+opensearch  | [2025-04-21T10:30:11,144][INFO ][o.o.i.i.ManagedIndexCoordinator] [demo-node] Performing move cluster state metadata.
+opensearch  | [2025-04-21T10:30:11,147][INFO ][o.o.i.i.MetadataService  ] [demo-node] ISM config index not exist, so we cancel the metadata migration job.
+opensearch  | [2025-04-21T10:30:11,149][INFO ][o.o.i.i.ManagedIndexCoordinator] [demo-node] Performing ISM template migration.
+opensearch  | [2025-04-21T10:30:11,150][INFO ][o.o.i.i.m.ISMTemplateService] [demo-node] Doing ISM template migration 1 time.
+opensearch  | [2025-04-21T10:30:11,150][INFO ][o.o.i.i.m.ISMTemplateService] [demo-node] Use 2025-04-21T09:29:11.144Z as migrating ISM template last_updated_time
+opensearch  | [2025-04-21T10:30:11,151][INFO ][o.o.i.i.m.ISMTemplateService] [demo-node] ISM templates: {}
+opensearch  | [2025-04-21T10:30:11,152][INFO ][o.o.i.i.m.ISMTemplateService] [demo-node] Policies to update: []
+opensearch  | [2025-04-21T10:30:11,157][INFO ][o.o.i.i.m.ISMTemplateService] [demo-node] Failure experienced when migrating ISM Template and update ISM policies: {}
+opensearch  | [2025-04-21T10:30:11,184][INFO ][o.o.c.s.ClusterSettings  ] [demo-node] updating [plugins.index_state_management.template_migration.control] from [0] to [-1]
+opensearch  | [2025-04-21T10:30:11,188][WARN ][o.o.c.r.a.AllocationService] [demo-node] Falling back to single shard assignment since batch mode disable or multiple custom allocators set
+opensearch  | [2025-04-21T10:30:11,189][INFO ][o.o.i.i.m.ISMTemplateService] [demo-node] Successfully update template migration setting
+opensearch  | [2025-04-21T10:31:11,154][INFO ][o.o.i.i.ManagedIndexCoordinator] [demo-node] Cancel background move metadata process.
+opensearch  | [2025-04-21T10:31:11,157][INFO ][o.o.i.i.ManagedIndexCoordinator] [demo-node] Performing move cluster state metadata.
+opensearch  | [2025-04-21T10:31:11,158][INFO ][o.o.i.i.MetadataService  ] [demo-node] Move metadata has finished.

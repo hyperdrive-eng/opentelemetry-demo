@@ -1,18 +1,16 @@
-email  | == Sinatra (v3.1.0) has taken the stage on 6060 for production with backup from Puma
-email  | I, [2025-04-11T12:35:56.079396 #1]  INFO -- : Instrumentation: OpenTelemetry::Instrumentation::Sinatra was successfully installed with the following options {}
+email  | I, [2025-04-21T10:29:15.741629 #1]  INFO -- : Instrumentation: OpenTelemetry::Instrumentation::Sinatra was successfully installed with the following options {}
 email  | Puma starting in single mode...
 email  | * Puma version: 6.4.0 (ruby 3.2.2-p53) ("The Eagle of Durango")
 email  | *  Min threads: 0
 email  | *  Max threads: 5
 email  | *  Environment: production
 email  | *          PID: 1
+email  | == Sinatra (v3.1.0) has taken the stage on 6060 for production with backup from Puma
 email  | * Listening on http://0.0.0.0:6060
 email  | Use Ctrl-C to stop
-email  | Order confirmation email sent to: reed@example.com
-email  | 172.18.0.21 - - [11/Apr/2025:12:36:39 +0000] "POST /send_order_confirmation HTTP/1.1" 200 - 0.0930
-email  | Order confirmation email sent to: tobias@example.com
-email  | 172.18.0.21 - - [11/Apr/2025:12:37:05 +0000] "POST /send_order_confirmation HTTP/1.1" 200 - 0.0055
 email  | Order confirmation email sent to: jack@example.com
-email  | 172.18.0.21 - - [11/Apr/2025:12:37:22 +0000] "POST /send_order_confirmation HTTP/1.1" 200 - 0.0015
-email  | Order confirmation email sent to: mark@example.com
-email  | 172.18.0.21 - - [11/Apr/2025:12:37:55 +0000] "POST /send_order_confirmation HTTP/1.1" 200 - 0.0059
+email  | 172.18.0.21 - - [21/Apr/2025:10:29:30 +0000] "POST /send_order_confirmation HTTP/1.1" 200 - 0.0907
+email  | Order confirmation email sent to: moore@example.com
+email  | 172.18.0.21 - - [21/Apr/2025:10:30:01 +0000] "POST /send_order_confirmation HTTP/1.1" 200 - 0.0074
+email  | Order confirmation email sent to: moore@example.com
+email  | 172.18.0.21 - - [21/Apr/2025:10:30:16 +0000] "POST /send_order_confirmation HTTP/1.1" 200 - 0.0057

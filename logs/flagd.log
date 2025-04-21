@@ -7,10 +7,10 @@ flagd  | 		  \:::._\/ \:\ \____\:: __  \ \\:\\_  _\/ \:\ \ \ \
 flagd  | 		   \:\ \    \:\/___/\\:.\ \  \ \\:\_\ \ \  \:\/.:| | 
 flagd  | 		    \_\/     \_____\/ \__\/\__\/ \_____\/   \____/_/ 
 flagd  | 
-flagd  | 2025-04-11T12:35:44.037Z	info	cmd/start.go:124	flagd version: v0.12.1 (82dc4e4c6c229e42ecb723f4866ba343be9d2b89), built at: 2025-02-04	{"component": "start"}
-flagd  | 2025-04-11T12:35:44.043Z	info	flag-sync/sync_service.go:87	starting flag sync service on port 8015	{"component": "FlagSyncService"}
-flagd  | 2025-04-11T12:35:44.045Z	info	file/filepath_sync.go:60	Starting filepath sync notifier	{"component": "sync", "sync": "fileinfo"}
-flagd  | 2025-04-11T12:35:44.048Z	info	flag-evaluation/connect_service.go:249	metrics and probes listening at 8014	{"component": "service"}
-flagd  | 2025-04-11T12:35:44.048Z	info	ofrep/ofrep_service.go:58	ofrep service listening at 8016	{"component": "OFREPService"}
-flagd  | 2025-04-11T12:35:44.049Z	info	file/filepath_sync.go:99	watching filepath: ./etc/flagd/demo.flagd.json	{"component": "sync", "sync": "fileinfo"}
-flagd  | 2025-04-11T12:35:44.049Z	info	flag-evaluation/connect_service.go:229	Flag IResolver listening at [::]:8013	{"component": "service"}
+flagd  | 2025-04-21T10:29:03.721Z	info	cmd/start.go:124	flagd version: v0.12.1 (82dc4e4c6c229e42ecb723f4866ba343be9d2b89), built at: 2025-02-04	{"component": "start"}
+flagd  | 2025-04-21T10:29:03.736Z	info	flag-sync/sync_service.go:87	starting flag sync service on port 8015	{"component": "FlagSyncService"}
+flagd  | 2025-04-21T10:29:03.748Z	info	file/filepath_sync.go:60	Starting filepath sync notifier	{"component": "sync", "sync": "fileinfo"}
+flagd  | 2025-04-21T10:29:03.754Z	info	flag-evaluation/connect_service.go:229	Flag IResolver listening at [::]:8013	{"component": "service"}
+flagd  | 2025-04-21T10:29:03.754Z	info	flag-evaluation/connect_service.go:249	metrics and probes listening at 8014	{"component": "service"}
+flagd  | 2025-04-21T10:29:03.756Z	info	ofrep/ofrep_service.go:58	ofrep service listening at 8016	{"component": "OFREPService"}
+flagd  | 2025-04-21T10:29:03.762Z	info	file/filepath_sync.go:99	watching filepath: ./etc/flagd/demo.flagd.json	{"component": "sync", "sync": "fileinfo"}

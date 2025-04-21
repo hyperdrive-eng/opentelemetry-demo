@@ -1,7 +1,7 @@
-valkey-cart  | 1:M 11 Apr 2025 12:35:43.869 * oO0OoO0OoO0Oo Valkey is starting oO0OoO0OoO0Oo
-valkey-cart  | 1:M 11 Apr 2025 12:35:43.869 * Valkey version=8.1.0, bits=64, commit=00000000, modified=0, pid=1, just started
-valkey-cart  | 1:M 11 Apr 2025 12:35:43.869 # Warning: no config file specified, using the default config. In order to specify a config file use valkey-server /path/to/valkey.conf
-valkey-cart  | 1:M 11 Apr 2025 12:35:43.870 * monotonic clock: POSIX clock_gettime
-valkey-cart  | 1:M 11 Apr 2025 12:35:43.872 * Running mode=standalone, port=6379.
-valkey-cart  | 1:M 11 Apr 2025 12:35:43.872 * Server initialized
-valkey-cart  | 1:M 11 Apr 2025 12:35:43.873 * Ready to accept connections tcp
+valkey-cart  | 1:M 21 Apr 2025 10:29:03.360 * oO0OoO0OoO0Oo Valkey is starting oO0OoO0OoO0Oo
+valkey-cart  | 1:M 21 Apr 2025 10:29:03.360 * Valkey version=8.1.0, bits=64, commit=00000000, modified=0, pid=1, just started
+valkey-cart  | 1:M 21 Apr 2025 10:29:03.360 # Warning: no config file specified, using the default config. In order to specify a config file use valkey-server /path/to/valkey.conf
+valkey-cart  | 1:M 21 Apr 2025 10:29:03.361 * monotonic clock: POSIX clock_gettime
+valkey-cart  | 1:M 21 Apr 2025 10:29:03.363 * Running mode=standalone, port=6379.
+valkey-cart  | 1:M 21 Apr 2025 10:29:03.369 * Server initialized
+valkey-cart  | 1:M 21 Apr 2025 10:29:03.370 * Ready to accept connections tcp

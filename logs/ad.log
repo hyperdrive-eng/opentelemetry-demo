@@ -1,13 +1,10 @@
 ad  | Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/src/app/opentelemetry-javaagent.jar
 ad  | OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
-ad  | [otel.javaagent 2025-04-11 12:35:55:526 +0000] [main] INFO io.opentelemetry.javaagent.tooling.VersionLogger - opentelemetry-javaagent - version: 2.13.3
-ad  | 2025-04-11 12:35:57 - oteldemo.AdService - Ad service starting. trace_id= span_id= trace_flags= 
+ad  | [otel.javaagent 2025-04-21 10:29:15:005 +0000] [main] INFO io.opentelemetry.javaagent.tooling.VersionLogger - opentelemetry-javaagent - version: 2.13.3
+ad  | 2025-04-21 10:29:17 - oteldemo.AdService - Ad service starting. trace_id= span_id= trace_flags= 
 ad  | SLF4J(W): No SLF4J providers were found.
 ad  | SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 ad  | SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-ad  | 2025-04-11 12:35:58 - oteldemo.AdService - Ad service started, listening on 9555 trace_id= span_id= trace_flags= 
-ad  | 2025-04-11 12:36:40 - oteldemo.AdService - Targeted ad request received for [books] trace_id=db269f8229f2ee8540d7f7ad495dcbaf span_id=310832e85d32b9ad trace_flags=01 
-ad  | 2025-04-11 12:37:22 - oteldemo.AdService - Targeted ad request received for [telescopes] trace_id=2159b55f945ddb0dfc3bec94fe26494f span_id=1a16a3c86dabd9ff trace_flags=01 
-ad  | 2025-04-11 12:37:28 - oteldemo.AdService - Targeted ad request received for [binoculars] trace_id=b80ff3fdafd299e49c68a1e56af7db44 span_id=e62ce4e7889cc917 trace_flags=01 
-ad  | 2025-04-11 12:38:01 - oteldemo.AdService - Targeted ad request received for [assembly] trace_id=d5ae05f4fcd4fcf999f20c31210205b1 span_id=a476feda23273005 trace_flags=01 
-ad  | 2025-04-11 12:38:12 - oteldemo.AdService - Targeted ad request received for [books] trace_id=99d6d40adf2c09c1e2eea22aba06235b span_id=8b1c37c96a11d0e1 trace_flags=01 
+ad  | 2025-04-21 10:29:17 - oteldemo.AdService - Ad service started, listening on 9555 trace_id= span_id= trace_flags= 
+ad  | 2025-04-21 10:29:57 - oteldemo.AdService - Targeted ad request received for [binoculars] trace_id=c7bb78c0bd789d1ddd7cdf1cd02e09b6 span_id=31fee26ede3f3f6f trace_flags=01 
+ad  | 2025-04-21 10:30:04 - oteldemo.AdService - Non-targeted ad request received, preparing random response. trace_id=21ef19e2d3722dc0a3a3721e100f5b9a span_id=aa83120bf052b48d trace_flags=01 

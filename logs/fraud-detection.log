@@ -1,10 +1,9 @@
 fraud-detection  | Picked up JAVA_TOOL_OPTIONS: -javaagent:/app/opentelemetry-javaagent.jar
 fraud-detection  | OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
-fraud-detection  | [otel.javaagent 2025-04-11 12:35:59:429 +0000] [main] INFO io.opentelemetry.javaagent.tooling.VersionLogger - opentelemetry-javaagent - version: 2.13.3
+fraud-detection  | [otel.javaagent 2025-04-21 10:29:19:041 +0000] [main] INFO io.opentelemetry.javaagent.tooling.VersionLogger - opentelemetry-javaagent - version: 2.13.3
 fraud-detection  | SLF4J(W): No SLF4J providers were found.
 fraud-detection  | SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 fraud-detection  | SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-fraud-detection  | 2025-04-11 12:36:40 - fraud-detection - Consumed record with orderId: 9d8312b9-16d1-11f0-ad92-0242ac120015, and updated total count to: 1 trace_id=8453dbd1a06fd18ce753cd60afeedfe6 span_id=c58a3b29ad522ce6 trace_flags=01 
-fraud-detection  | 2025-04-11 12:37:05 - fraud-detection - Consumed record with orderId: ad2d424a-16d1-11f0-ad92-0242ac120015, and updated total count to: 2 trace_id=091465c8d344b0f0243e407fb1d393bb span_id=0d3c535a4f4adfff trace_flags=01 
-fraud-detection  | 2025-04-11 12:37:22 - fraud-detection - Consumed record with orderId: b6f2fea9-16d1-11f0-ad92-0242ac120015, and updated total count to: 3 trace_id=781515b27639e3a5b0c2011a27e89ff9 span_id=9bbf6f9f34ed0dba trace_flags=01 
-fraud-detection  | 2025-04-11 12:37:55 - fraud-detection - Consumed record with orderId: cb0fd48c-16d1-11f0-ad92-0242ac120015, and updated total count to: 4 trace_id=a3820169efe3375b34e2b392a7f28846 span_id=87fdbf2e5b2ebba6 trace_flags=01 
+fraud-detection  | 2025-04-21 10:29:31 - fraud-detection - Consumed record with orderId: 81d73dad-1e9b-11f0-aeea-0242ac120015, and updated total count to: 1 trace_id=d0c1d4953061879778a17259a8f0eeff span_id=61d27eb40fc5cbb7 trace_flags=01 
+fraud-detection  | 2025-04-21 10:30:01 - fraud-detection - Consumed record with orderId: 95003593-1e9b-11f0-aeea-0242ac120015, and updated total count to: 2 trace_id=c64a555c7e7217724a89ac39370c0d36 span_id=1fab30f1160c8d22 trace_flags=01 
+fraud-detection  | 2025-04-21 10:30:16 - fraud-detection - Consumed record with orderId: 9e0d93ac-1e9b-11f0-aeea-0242ac120015, and updated total count to: 3 trace_id=459b71fb2857ea72f8f9f1d860917f6e span_id=5c6a34e3d1f1a9b9 trace_flags=01 
